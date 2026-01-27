@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VcuSystem:VehicleControlSystem xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:VcuSystem="http://www.example.org/VcuSystem" name="myFirstVcuSysModel">
+  <parkingassist board="//@board" name="Parking Assist">
+    <distancesensor name="DistanceSensor">
+      <pingroup name="PinGrp">
+        <pin pinNr="1" pinType="VCC_5V" name="VCC"/>
+        <pin pinNr="2" pinType="GND" name="GND"/>
+        <pin name="LED_PIN"/>
+      </pingroup>
+    </distancesensor>
+    <warningled name="WarningLED"/>
+    <buzzer name="Buzzer">
+      <pingroup>
+        <pin pinType="GND" name="GND"/>
+        <pin pinType="VCC_5V" name="VCC"/>
+      </pingroup>
+    </buzzer>
+  </parkingassist>
+  <adaptiveheadlight board="//@board" name="AdaptiveHeadlight">
+    <lightsensor name="LightSensor">
+      <pingroup>
+        <pin pinType="GND" name="GND"/>
+        <pin pinType="VCC_5V" name="VCC"/>
+      </pingroup>
+    </lightsensor>
+    <headlight name="Headlight">
+      <pingroup>
+        <pin pinType="GND" name="HeadlightGND"/>
+        <pin pinType="VCC_5V" name="HeadlightVCC"/>
+      </pingroup>
+    </headlight>
+  </adaptiveheadlight>
+  <board name="ArduinoUno">
+    <pingroups>
+      <pin pinType="GND" name="BoardGND"/>
+      <pin pinType="VCC_5V" name="BoardVCC"/>
+      <pin name="BoardDigitalIn"/>
+    </pingroups>
+  </board>
+  <connection target="//@adaptiveheadlight/@headlight.0/@pingroup.0/@pin.1" source="//@board/@pingroups.0/@pin.1" name="HeadlightToBoardVCC"/>
+</VcuSystem:VehicleControlSystem>

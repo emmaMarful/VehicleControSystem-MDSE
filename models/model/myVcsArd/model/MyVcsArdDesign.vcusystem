@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VcuSystem:VehicleControlSystem xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:VcuSystem="http://www.example.org/VcuSystem" name="VcsArduino">
+  <parkingassist name="vcsParkingAssist">
+    <parkingassistbehavior name="ParkingAssistSM">
+      <states name="Inactive" isInitial="true"/>
+      <states name="Safe"/>
+      <states name="Warning"/>
+      <states name="Danger"/>
+      <transitions condition="InactiveToSafe" source="//@parkingassist/@parkingassistbehavior.0/@states.0" target="//@parkingassist/@parkingassistbehavior.0/@states.1" trigger="reverseGearOn"/>
+      <transitions condition="SafeToWarning" source="//@parkingassist/@parkingassistbehavior.0/@states.1" target="//@parkingassist/@parkingassistbehavior.0/@states.2" trigger="distanceUpdated"/>
+      <transitions condition="WarningToDanger" source="//@parkingassist/@parkingassistbehavior.0/@states.2" target="//@parkingassist/@parkingassistbehavior.0/@states.0" trigger="distanceUpdated"/>
+      <transitions condition="DangerToWarning" source="//@parkingassist/@parkingassistbehavior.0/@states.3" target="//@parkingassist/@parkingassistbehavior.0/@states.2" trigger="distanceUpdated"/>
+      <transitions condition="WarningToSafe" source="//@parkingassist/@parkingassistbehavior.0/@states.2" target="//@parkingassist/@parkingassistbehavior.0/@states.1" trigger="distanceUpdated"/>
+      <transitions condition="DangerToInactive" source="//@parkingassist/@parkingassistbehavior.0/@states.3" target="//@parkingassist/@parkingassistbehavior.0/@states.0" trigger="reverseGearOff"/>
+      <transitions condition="SafeToInactive" source="//@parkingassist/@parkingassistbehavior.0/@states.1" target="//@parkingassist/@parkingassistbehavior.0/@states.0" trigger="reverseGearOff"/>
+    </parkingassistbehavior>
+    <component xsi:type="VcuSystem:PushButton" componentName="PushBtn" name="PushBtn">
+      <pingroups name="PushBtnPinGroup">
+        <pin pinNr="82" pinType="GND" name="groundPushBtn"/>
+        <pin pinNr="83" name="signalPushButton"/>
+      </pingroups>
+    </component>
+    <component xsi:type="VcuSystem:DistanceSensor" componentName="Distance Sensor" name="UltrasonicSensor">
+      <pingroups name="DSpinGrp">
+        <pin pinNr="84" pinType="DIGITAL_OUT" name="TriggerDS"/>
+        <pin pinNr="85" pinType="VCC_5V" name="powerDS"/>
+        <pin pinNr="86" name="echoDS"/>
+        <pin pinNr="87" pinType="GND" name="groundDS"/>
+      </pingroups>
+    </component>
+    <component xsi:type="VcuSystem:WarningLED" componentName="WarningLED" name="warningLED">
+      <pingroups name="warningLedPinGroup">
+        <pin pinNr="88" pinType="GND" name="cathodeLED"/>
+        <pin pinNr="89" name="anodeLED"/>
+      </pingroups>
+    </component>
+    <component xsi:type="VcuSystem:Buzzer" componentName="Buzzer" name="Buzzer">
+      <pingroups name="BuzzerPinGrp">
+        <pin pinNr="90" name="signalBuzzer"/>
+        <pin pinNr="91" pinType="GND" name="gndBuzzer"/>
+      </pingroups>
+    </component>
+  </parkingassist>
+  <adaptiveheadlight name="vcsAdaptiveHeadlight">
+    <adaptiveheadlightbehavior name="AdaptiveHeadlightSM">
+      <transition condition="StateOffToLowBeam" source="//@adaptiveheadlight/@adaptiveheadlightbehavior.0/@state.0" target="//@adaptiveheadlight/@adaptiveheadlightbehavior.0/@state.1" trigger="ambeintLightLow"/>
+      <transition condition="LowBeamToOff" source="//@adaptiveheadlight/@adaptiveheadlightbehavior.0/@state.1" target="//@adaptiveheadlight/@adaptiveheadlightbehavior.0/@state.0" trigger="ambeintLightHigh"/>
+      <transition condition="LowBeamToHighBeam" source="//@adaptiveheadlight/@adaptiveheadlightbehavior.0/@state.1" target="//@adaptiveheadlight/@adaptiveheadlightbehavior.0/@state.2" trigger="glareLow"/>
+      <transition condition="HighBeamToLowBeam" source="//@adaptiveheadlight/@adaptiveheadlightbehavior.0/@state.2" target="//@adaptiveheadlight/@adaptiveheadlightbehavior.0/@state.1" trigger="glareHigh"/>
+      <transition condition="HighBeamToOff" source="//@adaptiveheadlight/@adaptiveheadlightbehavior.0/@state.2" target="//@adaptiveheadlight/@adaptiveheadlightbehavior.0/@state.0" trigger="ambeintLightHigh"/>
+      <state name="off"/>
+      <state name="LowBeam"/>
+      <state name="HighBeam"/>
+    </adaptiveheadlightbehavior>
+    <component xsi:type="VcuSystem:Headlight" componentName="Headlight" name="Headlight">
+      <pingroups name="AHpinGroup">
+        <pin pinNr="92" name="AnodeHeadlight"/>
+        <pin pinNr="93" pinType="GND" name="groudAH"/>
+      </pingroups>
+    </component>
+    <component xsi:type="VcuSystem:LightSensor" componentName="LightSensor" name="LightSensor">
+      <pingroups name="LightSensorPinGrp">
+        <pin pinNr="94" pinType="VCC_5V" name="powerLightSensor"/>
+        <pin pinNr="95" pinType="GND" name="groundLightSensor"/>
+        <pin pinNr="96" pinType="ANALOG_OUT" name="analogOutLightSensor"/>
+      </pingroups>
+    </component>
+  </adaptiveheadlight>
+  <board name="ArduinoUno">
+    <pingroups name="boardPinGroup">
+      <pin pinNr="-1" pinType="VCC_5V" name="VccBoard"/>
+      <pin pinNr="-1" pinType="GND" name="gndBoard"/>
+      <pin pinNr="2" name="pin2"/>
+      <pin pinNr="8" name="pin8"/>
+      <pin pinNr="21" pinType="DIGITAL_OUT" name="A0"/>
+      <pin pinNr="9" name="pin9"/>
+      <pin pinNr="4" name="pin4"/>
+      <pin pinNr="5" name="pin5"/>
+      <pin pinNr="6" name="pin6"/>
+      <pin pinNr="11" name="pin11"/>
+      <pin pinNr="21" pinType="ANALOG_OUT" name="pin A1"/>
+      <pin pinNr="22" pinType="ANALOG_OUT" name="A2"/>
+    </pingroups>
+  </board>
+  <connection target="//@parkingassist/@component.1/@pingroups.0/@pin.1" source="//@board/@pingroups.0/@pin.0" name="Board 2 DistanceSensor Power"/>
+  <connection target="//@parkingassist/@component.1/@pingroups.0/@pin.3" source="//@board/@pingroups.0/@pin.1" name="Board 2 DistanceSensor GND"/>
+  <connection target="//@parkingassist/@component.1/@pingroups.0/@pin.2" source="//@board/@pingroups.0/@pin.3" name="Board 2 DistanceSensor DigitalInEcho"/>
+  <connection target="//@parkingassist/@component.1/@pingroups.0/@pin.0" source="//@board/@pingroups.0/@pin.5" name="Board 2 DistanceSensor DigitalOutTrigger"/>
+  <connection target="//@parkingassist/@component.0/@pingroups.0/@pin.1" source="//@board/@pingroups.0/@pin.2" name="Board 2 pushBtn DigitalIn"/>
+  <connection target="//@parkingassist/@component.0/@pingroups.0/@pin.0" source="//@board/@pingroups.0/@pin.1" name="Board 2 PushButton GND"/>
+  <connection target="//@parkingassist/@component.2/@pingroups.0/@pin.1" source="//@board/@pingroups.0/@pin.7" name="Board 2 WarningLED DigitalIn"/>
+  <connection target="//@parkingassist/@component.2/@pingroups.0/@pin.0" source="//@board/@pingroups.0/@pin.1" name="Board 2 WarningLED GND"/>
+  <connection target="//@parkingassist/@component.3/@pingroups.0/@pin.0" source="//@board/@pingroups.0/@pin.8" name="Board 2 Buzzer DigitalIN"/>
+  <connection target="//@parkingassist/@component.3/@pingroups.0/@pin.1" source="//@board/@pingroups.0/@pin.1" name="Board 2 Buzzer GND"/>
+  <connection target="//@board/@pingroups.0/@pin.0" source="//@adaptiveheadlight/@component.1/@pingroups.0/@pin.0" name="LightSensor 2 Board VCC"/>
+  <connection target="//@board/@pingroups.0/@pin.1" source="//@adaptiveheadlight/@component.1/@pingroups.0/@pin.1" name="LightSensor 2 Board GND"/>
+  <connection target="//@board/@pingroups.0/@pin.4" source="//@adaptiveheadlight/@component.1/@pingroups.0/@pin.2" name="LightSensor 2 Board A0"/>
+  <connection target="//@board/@pingroups.0/@pin.9" source="//@adaptiveheadlight/@component.0/@pingroups.0/@pin.0" name="HeadLight 2 Board DigitalIn"/>
+  <connection target="//@board/@pingroups.0/@pin.1" source="//@adaptiveheadlight/@component.0/@pingroups.0/@pin.1" name="HeadLight 2 Board GND"/>
+</VcuSystem:VehicleControlSystem>
