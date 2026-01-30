@@ -11,7 +11,7 @@
     </eAnnotations>
     <ownedViews xmi:type="viewpoint:DView" uid="_I9WacO7oEfCKlM0Mqjo7Dw">
       <viewpoint xmi:type="description:Viewpoint" href="platform:/resource/myVcsArdVP.project.design/description/VcsProject.odesign#//@ownedViewpoints[name='VehicleControlSystemViewpoint']"/>
-      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_dTYqAu7pEfC0V90C8EWaJQ" name="newVcsStructureDiagram" repPath="#_dTYqAO7pEfC0V90C8EWaJQ" changeId="1769055380005">
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_dTYqAu7pEfC0V90C8EWaJQ" name="newVcsStructureDiagram" repPath="#_dTYqAO7pEfC0V90C8EWaJQ" changeId="1769646268778">
         <description xmi:type="description_1:DiagramDescription" href="platform:/resource/myVcsArdVP.project.design/description/VcsProject.odesign#//@ownedViewpoints[name='VehicleControlSystemViewpoint']/@ownedRepresentations[name='VcsStructure']"/>
         <target xmi:type="VcuSystem:VehicleControlSystem" href="MyVcsArdDesign.vcusystem#/"/>
       </ownedRepresentationDescriptors>
@@ -73,7 +73,7 @@
                       <layoutConstraint xmi:type="notation:Bounds" xmi:id="_mKd_t_C7EfCX4avrAfuifQ" x="22" y="15" width="27" height="31"/>
                     </children>
                     <styles xmi:type="notation:ShapeStyle" xmi:id="_mKcxkfC7EfCX4avrAfuifQ" fontName="Segoe UI" fontHeight="12"/>
-                    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_mKcxkvC7EfCX4avrAfuifQ" x="118" width="30" height="106"/>
+                    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_mKcxkvC7EfCX4avrAfuifQ" x="118" width="30" height="120"/>
                   </children>
                   <styles xmi:type="notation:ShapeStyle" xmi:id="_i_Raoe_tEfCjkLjYHBxmHw" fontName="Segoe UI" fontHeight="12" bold="true"/>
                   <layoutConstraint xmi:type="notation:Bounds" xmi:id="_i_Raou_tEfCjkLjYHBxmHw" x="85" y="44" width="126" height="106"/>
@@ -169,7 +169,7 @@
                         <layoutConstraint xmi:type="notation:Bounds" xmi:id="_26yXYvIdEfCn5omJX0ADZw"/>
                       </children>
                       <styles xmi:type="notation:ShapeStyle" xmi:id="_26xJSfIdEfCn5omJX0ADZw" fontName="Segoe UI" fontHeight="12"/>
-                      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_26xJSvIdEfCn5omJX0ADZw" x="22" y="95" width="30" height="30"/>
+                      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_26xJSvIdEfCn5omJX0ADZw" x="22" width="30" height="30"/>
                     </children>
                     <children xmi:type="notation:Node" xmi:id="_26xJTfIdEfCn5omJX0ADZw" type="3001" element="_26YHtfIdEfCn5omJX0ADZw">
                       <children xmi:type="notation:Node" xmi:id="_26xJUPIdEfCn5omJX0ADZw" type="5001">
@@ -180,7 +180,29 @@
                         <layoutConstraint xmi:type="notation:Bounds" xmi:id="_26yXZfIdEfCn5omJX0ADZw"/>
                       </children>
                       <styles xmi:type="notation:ShapeStyle" xmi:id="_26xJTvIdEfCn5omJX0ADZw" fontName="Segoe UI" fontHeight="12" fillColor="3465866"/>
-                      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_26xJT_IdEfCn5omJX0ADZw" x="22" y="30" width="30" height="30"/>
+                      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_26xJT_IdEfCn5omJX0ADZw" x="22" y="35" width="30" height="30"/>
+                    </children>
+                    <children xmi:type="notation:Node" xmi:id="_6JFwIPvFEfCwQdL7HLclmA" type="3001" element="_6JCs0PvFEfCwQdL7HLclmA">
+                      <children xmi:type="notation:Node" xmi:id="_6JFwI_vFEfCwQdL7HLclmA" type="5001">
+                        <layoutConstraint xmi:type="notation:Location" xmi:id="_6JFwJPvFEfCwQdL7HLclmA" y="5"/>
+                      </children>
+                      <children xmi:type="notation:Node" xmi:id="_6JGXMPvFEfCwQdL7HLclmA" type="3002" element="_6JCs0fvFEfCwQdL7HLclmA">
+                        <styles xmi:type="notation:ShapeStyle" xmi:id="_6JGXMfvFEfCwQdL7HLclmA" fontName="Segoe UI"/>
+                        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_6JGXMvvFEfCwQdL7HLclmA"/>
+                      </children>
+                      <styles xmi:type="notation:ShapeStyle" xmi:id="_6JFwIfvFEfCwQdL7HLclmA" fontName="Segoe UI" fontHeight="12" fillColor="3465866"/>
+                      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_6JFwIvvFEfCwQdL7HLclmA" x="22" y="70" width="30" height="30"/>
+                    </children>
+                    <children xmi:type="notation:Node" xmi:id="_9eeXmPvFEfCwQdL7HLclmA" type="3001" element="_9eV0sPvFEfCwQdL7HLclmA">
+                      <children xmi:type="notation:Node" xmi:id="_9ee-oPvFEfCwQdL7HLclmA" type="5001">
+                        <layoutConstraint xmi:type="notation:Location" xmi:id="_9ee-ofvFEfCwQdL7HLclmA" y="5"/>
+                      </children>
+                      <children xmi:type="notation:Node" xmi:id="_9ee-ovvFEfCwQdL7HLclmA" type="3002" element="_9eV0sfvFEfCwQdL7HLclmA">
+                        <styles xmi:type="notation:ShapeStyle" xmi:id="_9ee-o_vFEfCwQdL7HLclmA" fontName="Segoe UI"/>
+                        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_9ee-pPvFEfCwQdL7HLclmA"/>
+                      </children>
+                      <styles xmi:type="notation:ShapeStyle" xmi:id="_9eeXmfvFEfCwQdL7HLclmA" fontName="Segoe UI" fontHeight="12" fillColor="3465866"/>
+                      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_9eeXmvvFEfCwQdL7HLclmA" x="22" y="110" width="30" height="30"/>
                     </children>
                     <styles xmi:type="notation:ShapeStyle" xmi:id="_26xJQfIdEfCn5omJX0ADZw" fontName="Segoe UI" fontHeight="12"/>
                     <layoutConstraint xmi:type="notation:Bounds" xmi:id="_26xJQvIdEfCn5omJX0ADZw" x="176" y="-1" width="30" height="151"/>
@@ -380,7 +402,7 @@
                     <layoutConstraint xmi:type="notation:Bounds" xmi:id="_w1frle-VEfCC96ZUYBD5Tg"/>
                   </children>
                   <styles xmi:type="notation:ShapeStyle" xmi:id="_w1fEge-VEfCC96ZUYBD5Tg" fontName="Segoe UI" fontHeight="12" fillColor="8421504"/>
-                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_w1fEgu-VEfCC96ZUYBD5Tg" x="-22" y="70" width="30" height="30"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_w1fEgu-VEfCC96ZUYBD5Tg" x="-22" y="45" width="30" height="30"/>
                 </children>
                 <children xmi:type="notation:Node" xmi:id="_w1fEhe-VEfCC96ZUYBD5Tg" type="3012" element="_w1baKO-VEfCC96ZUYBD5Tg">
                   <children xmi:type="notation:Node" xmi:id="_w1fEiO-VEfCC96ZUYBD5Tg" type="5010">
@@ -391,7 +413,7 @@
                     <layoutConstraint xmi:type="notation:Bounds" xmi:id="_w1frmO-VEfCC96ZUYBD5Tg"/>
                   </children>
                   <styles xmi:type="notation:ShapeStyle" xmi:id="_w1fEhu-VEfCC96ZUYBD5Tg" fontName="Segoe UI" fontHeight="12" fillColor="3465866"/>
-                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_w1fEh--VEfCC96ZUYBD5Tg" x="-22" y="150" width="30" height="30"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_w1fEh--VEfCC96ZUYBD5Tg" x="-22" y="120" width="30" height="30"/>
                 </children>
                 <children xmi:type="notation:Node" xmi:id="_S3HlwPImEfCn5omJX0ADZw" type="3012" element="_S3EiffImEfCn5omJX0ADZw">
                   <children xmi:type="notation:Node" xmi:id="_S3Hlw_ImEfCn5omJX0ADZw" type="5010">
@@ -402,7 +424,7 @@
                     <layoutConstraint xmi:type="notation:Bounds" xmi:id="_S3KpF_ImEfCn5omJX0ADZw"/>
                   </children>
                   <styles xmi:type="notation:ShapeStyle" xmi:id="_S3HlwfImEfCn5omJX0ADZw" fontName="Segoe UI" fontHeight="12" fillColor="3465866"/>
-                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_S3HlwvImEfCn5omJX0ADZw" x="-22" y="195" width="30" height="30"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_S3HlwvImEfCn5omJX0ADZw" x="-22" y="170" width="30" height="30"/>
                 </children>
                 <children xmi:type="notation:Node" xmi:id="_S3IM0PImEfCn5omJX0ADZw" type="3012" element="_S3EigPImEfCn5omJX0ADZw">
                   <children xmi:type="notation:Node" xmi:id="_S3IM0_ImEfCn5omJX0ADZw" type="5010">
@@ -424,7 +446,7 @@
                     <layoutConstraint xmi:type="notation:Bounds" xmi:id="_S3KpHfImEfCn5omJX0ADZw"/>
                   </children>
                   <styles xmi:type="notation:ShapeStyle" xmi:id="_S3Iz4fImEfCn5omJX0ADZw" fontName="Segoe UI" fontHeight="12" fillColor="16384"/>
-                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_S3Iz4vImEfCn5omJX0ADZw" x="-22" y="263" width="30" height="30"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_S3Iz4vImEfCn5omJX0ADZw" x="-22" y="215" width="30" height="30"/>
                 </children>
                 <children xmi:type="notation:Node" xmi:id="_S3Iz5fImEfCn5omJX0ADZw" type="3012" element="_S3EihvImEfCn5omJX0ADZw">
                   <children xmi:type="notation:Node" xmi:id="_S3Iz6PImEfCn5omJX0ADZw" type="5010">
@@ -435,7 +457,7 @@
                     <layoutConstraint xmi:type="notation:Bounds" xmi:id="_S3KpIPImEfCn5omJX0ADZw"/>
                   </children>
                   <styles xmi:type="notation:ShapeStyle" xmi:id="_S3Iz5vImEfCn5omJX0ADZw" fontName="Segoe UI" fontHeight="12" fillColor="3465866"/>
-                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_S3Iz5_ImEfCn5omJX0ADZw" x="-22" y="310" width="30" height="30"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_S3Iz5_ImEfCn5omJX0ADZw" x="-22" y="280" width="30" height="30"/>
                 </children>
                 <children xmi:type="notation:Node" xmi:id="_S3Ja8PImEfCn5omJX0ADZw" type="3012" element="_S3EiifImEfCn5omJX0ADZw">
                   <children xmi:type="notation:Node" xmi:id="_S3Ja8_ImEfCn5omJX0ADZw" type="5010">
@@ -446,7 +468,7 @@
                     <layoutConstraint xmi:type="notation:Bounds" xmi:id="_S3KpI_ImEfCn5omJX0ADZw"/>
                   </children>
                   <styles xmi:type="notation:ShapeStyle" xmi:id="_S3Ja8fImEfCn5omJX0ADZw" fontName="Segoe UI" fontHeight="12" fillColor="16384"/>
-                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_S3Ja8vImEfCn5omJX0ADZw" x="-22" y="360" width="30" height="30"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_S3Ja8vImEfCn5omJX0ADZw" x="-22" y="325" width="30" height="30"/>
                 </children>
                 <children xmi:type="notation:Node" xmi:id="_S3KpEPImEfCn5omJX0ADZw" type="3012" element="_S3EijPImEfCn5omJX0ADZw">
                   <children xmi:type="notation:Node" xmi:id="_S3KpE_ImEfCn5omJX0ADZw" type="5010">
@@ -457,7 +479,7 @@
                     <layoutConstraint xmi:type="notation:Bounds" xmi:id="_S3KpJvImEfCn5omJX0ADZw"/>
                   </children>
                   <styles xmi:type="notation:ShapeStyle" xmi:id="_S3KpEfImEfCn5omJX0ADZw" fontName="Segoe UI" fontHeight="12" fillColor="16384"/>
-                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_S3KpEvImEfCn5omJX0ADZw" x="-22" y="405" width="30" height="30"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_S3KpEvImEfCn5omJX0ADZw" x="-22" y="540" width="30" height="30"/>
                 </children>
                 <children xmi:type="notation:Node" xmi:id="_CIICcPIyEfCQdoc-YzJZMA" type="3012" element="_CHkBwPIyEfCQdoc-YzJZMA">
                   <children xmi:type="notation:Node" xmi:id="_CIJQkPIyEfCQdoc-YzJZMA" type="5010">
@@ -468,7 +490,7 @@
                     <layoutConstraint xmi:type="notation:Bounds" xmi:id="_CIRzcvIyEfCQdoc-YzJZMA"/>
                   </children>
                   <styles xmi:type="notation:ShapeStyle" xmi:id="_CIICcfIyEfCQdoc-YzJZMA" fontName="Segoe UI" fontHeight="12" fillColor="3465866"/>
-                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_CIICcvIyEfCQdoc-YzJZMA" x="-22" y="455" width="30" height="30"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_CIICcvIyEfCQdoc-YzJZMA" x="-22" y="500" width="30" height="30"/>
                 </children>
                 <children xmi:type="notation:Node" xmi:id="_UIMVoPIyEfCQdoc-YzJZMA" type="3012" element="_UHw38PIyEfCQdoc-YzJZMA">
                   <children xmi:type="notation:Node" xmi:id="_UIMVo_IyEfCQdoc-YzJZMA" type="5010">
@@ -492,6 +514,28 @@
                   <styles xmi:type="notation:ShapeStyle" xmi:id="_UIM8sfIyEfCQdoc-YzJZMA" fontName="Segoe UI" fontHeight="12"/>
                   <layoutConstraint xmi:type="notation:Bounds" xmi:id="_UIM8svIyEfCQdoc-YzJZMA" x="22" y="355" width="30" height="30"/>
                 </children>
+                <children xmi:type="notation:Node" xmi:id="_O9kZwPvIEfCwQdL7HLclmA" type="3012" element="_O9gIUPvIEfCwQdL7HLclmA">
+                  <children xmi:type="notation:Node" xmi:id="_O9kZw_vIEfCwQdL7HLclmA" type="5010">
+                    <layoutConstraint xmi:type="notation:Location" xmi:id="_O9kZxPvIEfCwQdL7HLclmA" y="5"/>
+                  </children>
+                  <children xmi:type="notation:Node" xmi:id="_O9lA0PvIEfCwQdL7HLclmA" type="3002" element="_O9gvYPvIEfCwQdL7HLclmA">
+                    <styles xmi:type="notation:ShapeStyle" xmi:id="_O9lA0fvIEfCwQdL7HLclmA" fontName="Segoe UI"/>
+                    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_O9lA0vvIEfCwQdL7HLclmA"/>
+                  </children>
+                  <styles xmi:type="notation:ShapeStyle" xmi:id="_O9kZwfvIEfCwQdL7HLclmA" fontName="Segoe UI" fontHeight="12" fillColor="3465866"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_O9kZwvvIEfCwQdL7HLclmA" x="-22" y="370" width="30" height="30"/>
+                </children>
+                <children xmi:type="notation:Node" xmi:id="_VTkSpPvIEfCwQdL7HLclmA" type="3012" element="_VThPMPvIEfCwQdL7HLclmA">
+                  <children xmi:type="notation:Node" xmi:id="_VTk5kPvIEfCwQdL7HLclmA" type="5010">
+                    <layoutConstraint xmi:type="notation:Location" xmi:id="_VTk5kfvIEfCwQdL7HLclmA" y="5"/>
+                  </children>
+                  <children xmi:type="notation:Node" xmi:id="_VTk5kvvIEfCwQdL7HLclmA" type="3002" element="_VThPMfvIEfCwQdL7HLclmA">
+                    <styles xmi:type="notation:ShapeStyle" xmi:id="_VTk5k_vIEfCwQdL7HLclmA" fontName="Segoe UI"/>
+                    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_VTk5lPvIEfCwQdL7HLclmA"/>
+                  </children>
+                  <styles xmi:type="notation:ShapeStyle" xmi:id="_VTkSpfvIEfCwQdL7HLclmA" fontName="Segoe UI" fontHeight="12" fillColor="16384"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_VTkSpvvIEfCwQdL7HLclmA" x="-23" y="430" width="31" height="31"/>
+                </children>
                 <styles xmi:type="notation:ShapeStyle" xmi:id="_i9FKQe-VEfCC96ZUYBD5Tg" fontName="Segoe UI" fontHeight="12"/>
                 <layoutConstraint xmi:type="notation:Bounds" xmi:id="_i9FKQu-VEfCC96ZUYBD5Tg" x="-22" width="30" height="605"/>
               </children>
@@ -502,7 +546,7 @@
             <styles xmi:type="notation:FilteringStyle" xmi:id="_00AYQu-EEfCC96ZUYBD5Tg"/>
           </children>
           <styles xmi:type="notation:ShapeStyle" xmi:id="_0z5Dge-EEfCC96ZUYBD5Tg" fontName="Segoe UI"/>
-          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_0z5qkO-EEfCC96ZUYBD5Tg" x="125" y="90" width="1248" height="788"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_0z5qkO-EEfCC96ZUYBD5Tg" x="120" y="90" width="1248" height="788"/>
         </children>
         <styles xmi:type="notation:DiagramStyle" xmi:id="_dTZREu7pEfC0V90C8EWaJQ"/>
         <edges xmi:type="notation:Edge" xmi:id="_IrzusPIuEfCQdoc-YzJZMA" type="4001" element="_IrHyMPIuEfCQdoc-YzJZMA" source="_w1edcO-VEfCC96ZUYBD5Tg" target="_Ut9hsPIdEfCn5omJX0ADZw">
@@ -523,129 +567,81 @@
         </edges>
         <edges xmi:type="notation:Edge" xmi:id="_MLZlkPIvEfCQdoc-YzJZMA" type="4001" element="_MLCZNPIvEfCQdoc-YzJZMA" source="_w1fEgO-VEfCC96ZUYBD5Tg" target="_Ut-IxfIdEfCn5omJX0ADZw">
           <children xmi:type="notation:Node" xmi:id="_MLZllPIvEfCQdoc-YzJZMA" type="6001">
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_MLZllfIvEfCQdoc-YzJZMA" x="-2" y="-7"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_MLZllfIvEfCQdoc-YzJZMA" x="-2" y="-8"/>
           </children>
           <children xmi:type="notation:Node" xmi:id="_MLZllvIvEfCQdoc-YzJZMA" type="6002">
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_MLZll_IvEfCQdoc-YzJZMA" x="2" y="16"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_MLZll_IvEfCQdoc-YzJZMA" y="18"/>
           </children>
           <children xmi:type="notation:Node" xmi:id="_MLaMoPIvEfCQdoc-YzJZMA" type="6003">
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_MLaMofIvEfCQdoc-YzJZMA" x="-1" y="18"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_MLaMofIvEfCQdoc-YzJZMA" x="-3" y="19"/>
           </children>
           <styles xmi:type="notation:ConnectorStyle" xmi:id="_MLZlkfIvEfCQdoc-YzJZMA"/>
           <styles xmi:type="notation:FontStyle" xmi:id="_MLZlkvIvEfCQdoc-YzJZMA" fontName="Segoe UI" fontHeight="12"/>
-          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_MLZlk_IvEfCQdoc-YzJZMA" points="[-15, 13, 135, -122]$[-135, 121, 15, -14]"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_MLZlk_IvEfCQdoc-YzJZMA" points="[-15, 15, 135, -145]$[-136, 145, 14, -15]"/>
           <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_MLaMovIvEfCQdoc-YzJZMA" id="(0.5,0.5)"/>
           <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_MLaMo_IvEfCQdoc-YzJZMA" id="(0.5,0.5)"/>
         </edges>
-        <edges xmi:type="notation:Edge" xmi:id="_WN03UPIwEfCQdoc-YzJZMA" type="4001" element="_WNzCKPIwEfCQdoc-YzJZMA" source="_S3HlwPImEfCn5omJX0ADZw" target="_Ut-IwPIdEfCn5omJX0ADZw">
-          <children xmi:type="notation:Node" xmi:id="_WN03VPIwEfCQdoc-YzJZMA" type="6001">
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_WN03VfIwEfCQdoc-YzJZMA" x="2" y="-5"/>
-          </children>
-          <children xmi:type="notation:Node" xmi:id="_WN03VvIwEfCQdoc-YzJZMA" type="6002">
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_WN03V_IwEfCQdoc-YzJZMA" x="4" y="14"/>
-          </children>
-          <children xmi:type="notation:Node" xmi:id="_WN03WPIwEfCQdoc-YzJZMA" type="6003">
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_WN03WfIwEfCQdoc-YzJZMA" x="4" y="13"/>
-          </children>
-          <styles xmi:type="notation:ConnectorStyle" xmi:id="_WN03UfIwEfCQdoc-YzJZMA"/>
-          <styles xmi:type="notation:FontStyle" xmi:id="_WN03UvIwEfCQdoc-YzJZMA" fontName="Segoe UI" fontHeight="12"/>
-          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_WN03U_IwEfCQdoc-YzJZMA" points="[-15, 4, 135, -41]$[-135, 40, 15, -5]"/>
-          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_WN03WvIwEfCQdoc-YzJZMA" id="(0.5,0.5)"/>
-          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_WN03W_IwEfCQdoc-YzJZMA" id="(0.5,0.5)"/>
-        </edges>
-        <edges xmi:type="notation:Edge" xmi:id="_yAtIYPIwEfCQdoc-YzJZMA" type="4001" element="_yAY_jvIwEfCQdoc-YzJZMA" source="_w1fEhe-VEfCC96ZUYBD5Tg" target="_mKd_tfC7EfCX4avrAfuifQ">
-          <children xmi:type="notation:Node" xmi:id="_yAuWgPIwEfCQdoc-YzJZMA" type="6001">
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_yAuWgfIwEfCQdoc-YzJZMA" x="-1" y="-11"/>
-          </children>
-          <children xmi:type="notation:Node" xmi:id="_yAuWgvIwEfCQdoc-YzJZMA" type="6002">
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_yAuWg_IwEfCQdoc-YzJZMA" x="5" y="12"/>
-          </children>
-          <children xmi:type="notation:Node" xmi:id="_yAuWhPIwEfCQdoc-YzJZMA" type="6003">
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_yAuWhfIwEfCQdoc-YzJZMA" x="3" y="11"/>
-          </children>
-          <styles xmi:type="notation:ConnectorStyle" xmi:id="_yAtIYfIwEfCQdoc-YzJZMA"/>
-          <styles xmi:type="notation:FontStyle" xmi:id="_yAtIYvIwEfCQdoc-YzJZMA" fontName="Segoe UI" fontHeight="12"/>
-          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_yAtIY_IwEfCQdoc-YzJZMA" points="[-16, -15, 147, 145]$[-149, -147, 14, 13]"/>
-          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_yAuWhvIwEfCQdoc-YzJZMA" id="(0.5,0.5)"/>
-          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_yAuWh_IwEfCQdoc-YzJZMA" id="(0.5,0.5)"/>
-        </edges>
         <edges xmi:type="notation:Edge" xmi:id="_8O9sIPIwEfCQdoc-YzJZMA" type="4001" element="_8OnG5PIwEfCQdoc-YzJZMA" source="_w1fEgO-VEfCC96ZUYBD5Tg" target="_mKd_sPC7EfCX4avrAfuifQ">
           <children xmi:type="notation:Node" xmi:id="_8O-6QPIwEfCQdoc-YzJZMA" type="6001">
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_8O-6QfIwEfCQdoc-YzJZMA" x="5" y="-7"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_8O-6QfIwEfCQdoc-YzJZMA" x="7" y="-6"/>
           </children>
           <children xmi:type="notation:Node" xmi:id="_8O-6QvIwEfCQdoc-YzJZMA" type="6002">
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_8O-6Q_IwEfCQdoc-YzJZMA" x="9" y="10"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_8O-6Q_IwEfCQdoc-YzJZMA" x="8" y="10"/>
           </children>
           <children xmi:type="notation:Node" xmi:id="_8O-6RPIwEfCQdoc-YzJZMA" type="6003">
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_8O-6RfIwEfCQdoc-YzJZMA" x="7" y="11"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_8O-6RfIwEfCQdoc-YzJZMA" x="5" y="11"/>
           </children>
           <styles xmi:type="notation:ConnectorStyle" xmi:id="_8O9sIfIwEfCQdoc-YzJZMA"/>
           <styles xmi:type="notation:FontStyle" xmi:id="_8O9sIvIwEfCQdoc-YzJZMA" fontName="Segoe UI" fontHeight="12"/>
-          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_8O9sI_IwEfCQdoc-YzJZMA" points="[-15, -4, 149, 33]$[-152, -35, 12, 2]"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_8O9sI_IwEfCQdoc-YzJZMA" points="[-15, -2, 149, 10]$[-152, -12, 12, 0]"/>
           <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_8O-6RvIwEfCQdoc-YzJZMA" id="(0.5,0.5)"/>
           <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_8O-6R_IwEfCQdoc-YzJZMA" id="(0.5,0.5)"/>
         </edges>
         <edges xmi:type="notation:Edge" xmi:id="_jQRIAPIyEfCQdoc-YzJZMA" type="4001" element="_jP1qSvIyEfCQdoc-YzJZMA" source="_w1fEgO-VEfCC96ZUYBD5Tg" target="_26xJSPIdEfCn5omJX0ADZw">
           <children xmi:type="notation:Node" xmi:id="_jQRIBPIyEfCQdoc-YzJZMA" type="6001">
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_jQRIBfIyEfCQdoc-YzJZMA" y="-9"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_jQRIBfIyEfCQdoc-YzJZMA" y="-6"/>
           </children>
           <children xmi:type="notation:Node" xmi:id="_jQRIBvIyEfCQdoc-YzJZMA" type="6002">
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_jQRIB_IyEfCQdoc-YzJZMA" x="-1" y="10"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_jQRIB_IyEfCQdoc-YzJZMA" x="-2" y="11"/>
           </children>
           <children xmi:type="notation:Node" xmi:id="_jQRICPIyEfCQdoc-YzJZMA" type="6003">
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_jQRICfIyEfCQdoc-YzJZMA" y="11"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_jQRICfIyEfCQdoc-YzJZMA" x="-3" y="15"/>
           </children>
           <styles xmi:type="notation:ConnectorStyle" xmi:id="_jQRIAfIyEfCQdoc-YzJZMA"/>
           <styles xmi:type="notation:FontStyle" xmi:id="_jQRIAvIyEfCQdoc-YzJZMA" fontName="Segoe UI" fontHeight="12"/>
-          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_jQRIA_IyEfCQdoc-YzJZMA" points="[-7, 15, 141, -345]$[-142, 345, 6, -15]"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_jQRIA_IyEfCQdoc-YzJZMA" points="[-8, 15, 140, -275]$[-141, 275, 7, -15]"/>
           <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_jQRvEPIyEfCQdoc-YzJZMA" id="(0.5,0.5)"/>
           <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_jQRvEfIyEfCQdoc-YzJZMA" id="(0.5,0.5)"/>
         </edges>
         <edges xmi:type="notation:Edge" xmi:id="_sPnMIPIzEfCQdoc-YzJZMA" type="4001" element="_sPNjuPIzEfCQdoc-YzJZMA" source="_S3Ja8PImEfCn5omJX0ADZw" target="_26xJTfIdEfCn5omJX0ADZw">
           <children xmi:type="notation:Node" xmi:id="_sPnMJPIzEfCQdoc-YzJZMA" type="6001">
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sPnMJfIzEfCQdoc-YzJZMA" y="-10"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sPnMJfIzEfCQdoc-YzJZMA" x="7" y="-2"/>
           </children>
           <children xmi:type="notation:Node" xmi:id="_sPnMJvIzEfCQdoc-YzJZMA" type="6002">
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sPnMJ_IzEfCQdoc-YzJZMA" y="10"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sPnMJ_IzEfCQdoc-YzJZMA" y="13"/>
           </children>
           <children xmi:type="notation:Node" xmi:id="_sPnMKPIzEfCQdoc-YzJZMA" type="6003">
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sPnMKfIzEfCQdoc-YzJZMA" y="10"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sPnMKfIzEfCQdoc-YzJZMA" y="18"/>
           </children>
           <styles xmi:type="notation:ConnectorStyle" xmi:id="_sPnMIfIzEfCQdoc-YzJZMA"/>
           <styles xmi:type="notation:FontStyle" xmi:id="_sPnMIvIzEfCQdoc-YzJZMA" fontName="Segoe UI" fontHeight="12"/>
-          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_sPnMI_IzEfCQdoc-YzJZMA" points="[-15, -1, 138, 1]$[-138, -2, 15, 0]"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_sPnMI_IzEfCQdoc-YzJZMA" points="[-15, 4, 133, -41]$[-133, 40, 15, -5]"/>
           <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_sPnzMPIzEfCQdoc-YzJZMA" id="(0.5,0.5)"/>
           <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_sPnzMfIzEfCQdoc-YzJZMA" id="(0.5,0.5)"/>
         </edges>
-        <edges xmi:type="notation:Edge" xmi:id="_6pNH4PIzEfCQdoc-YzJZMA" type="4001" element="_6owcJ_IzEfCQdoc-YzJZMA" source="_S3KpEPImEfCn5omJX0ADZw" target="_KxzlI_IeEfCn5omJX0ADZw">
-          <children xmi:type="notation:Node" xmi:id="_6pNH5PIzEfCQdoc-YzJZMA" type="6001">
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_6pNH5fIzEfCQdoc-YzJZMA" y="-10"/>
-          </children>
-          <children xmi:type="notation:Node" xmi:id="_6pNH5vIzEfCQdoc-YzJZMA" type="6002">
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_6pNH5_IzEfCQdoc-YzJZMA" y="10"/>
-          </children>
-          <children xmi:type="notation:Node" xmi:id="_6pNH6PIzEfCQdoc-YzJZMA" type="6003">
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_6pNH6fIzEfCQdoc-YzJZMA" y="10"/>
-          </children>
-          <styles xmi:type="notation:ConnectorStyle" xmi:id="_6pNH4fIzEfCQdoc-YzJZMA"/>
-          <styles xmi:type="notation:FontStyle" xmi:id="_6pNH4vIzEfCQdoc-YzJZMA" fontName="Segoe UI" fontHeight="12"/>
-          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_6pNH4_IzEfCQdoc-YzJZMA" points="[0, 0, 144, -104]$[-144, 104, 0, 0]"/>
-          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_6pNu8PIzEfCQdoc-YzJZMA" id="(0.5,0.5)"/>
-          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_6pNu8fIzEfCQdoc-YzJZMA" id="(0.5,0.5)"/>
-        </edges>
         <edges xmi:type="notation:Edge" xmi:id="_IoJH8PI0EfCQdoc-YzJZMA" type="4001" element="_InqnFvI0EfCQdoc-YzJZMA" source="_w1fEgO-VEfCC96ZUYBD5Tg" target="_KxzlKPIeEfCn5omJX0ADZw">
           <children xmi:type="notation:Node" xmi:id="_IoJH9PI0EfCQdoc-YzJZMA" type="6001">
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_IoJH9fI0EfCQdoc-YzJZMA" y="-10"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_IoJH9fI0EfCQdoc-YzJZMA" x="-1" y="-10"/>
           </children>
           <children xmi:type="notation:Node" xmi:id="_IoJH9vI0EfCQdoc-YzJZMA" type="6002">
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_IoJH9_I0EfCQdoc-YzJZMA" y="10"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_IoJH9_I0EfCQdoc-YzJZMA" x="-1" y="13"/>
           </children>
           <children xmi:type="notation:Node" xmi:id="_IoJH-PI0EfCQdoc-YzJZMA" type="6003">
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_IoJH-fI0EfCQdoc-YzJZMA" y="10"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_IoJH-fI0EfCQdoc-YzJZMA" x="-2" y="13"/>
           </children>
           <styles xmi:type="notation:ConnectorStyle" xmi:id="_IoJH8fI0EfCQdoc-YzJZMA"/>
           <styles xmi:type="notation:FontStyle" xmi:id="_IoJH8vI0EfCQdoc-YzJZMA" fontName="Segoe UI" fontHeight="12"/>
-          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_IoJH8_I0EfCQdoc-YzJZMA" points="[-6, 20, 138, -464]$[-140, 469, 4, -15]"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_IoJH8_I0EfCQdoc-YzJZMA" points="[-5, 15, 134, -505]$[-135, 505, 4, -15]"/>
           <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_IoJvAPI0EfCQdoc-YzJZMA" id="(0.5,0.5)"/>
           <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_IoJvAfI0EfCQdoc-YzJZMA" id="(0.5,0.5)"/>
         </edges>
@@ -667,17 +663,17 @@
         </edges>
         <edges xmi:type="notation:Edge" xmi:id="_XCw-cPI0EfCQdoc-YzJZMA" type="4001" element="_XCJ6rfI0EfCQdoc-YzJZMA" source="_SxZ0wPIlEfCn5omJX0ADZw" target="_w1fEgO-VEfCC96ZUYBD5Tg">
           <children xmi:type="notation:Node" xmi:id="_XCxlgPI0EfCQdoc-YzJZMA" type="6001">
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_XCxlgfI0EfCQdoc-YzJZMA" y="-10"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_XCxlgfI0EfCQdoc-YzJZMA" x="-1" y="-9"/>
           </children>
           <children xmi:type="notation:Node" xmi:id="_XCxlgvI0EfCQdoc-YzJZMA" type="6002">
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_XCxlg_I0EfCQdoc-YzJZMA" y="10"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_XCxlg_I0EfCQdoc-YzJZMA" x="3" y="11"/>
           </children>
           <children xmi:type="notation:Node" xmi:id="_XCxlhPI0EfCQdoc-YzJZMA" type="6003">
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_XCxlhfI0EfCQdoc-YzJZMA" y="10"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_XCxlhfI0EfCQdoc-YzJZMA" x="3" y="10"/>
           </children>
           <styles xmi:type="notation:ConnectorStyle" xmi:id="_XCw-cfI0EfCQdoc-YzJZMA"/>
           <styles xmi:type="notation:FontStyle" xmi:id="_XCw-cvI0EfCQdoc-YzJZMA" fontName="Segoe UI" fontHeight="12"/>
-          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_XCw-c_I0EfCQdoc-YzJZMA" points="[-15, -4, 450, 102]$[-450, -103, 15, 3]"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_XCw-c_I0EfCQdoc-YzJZMA" points="[-15, -5, 455, 132]$[-455, -133, 15, 4]"/>
           <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_XCxlhvI0EfCQdoc-YzJZMA" id="(0.5,0.5)"/>
           <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_XCxlh_I0EfCQdoc-YzJZMA" id="(0.5,0.5)"/>
         </edges>
@@ -697,53 +693,133 @@
           <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_g0XbavI0EfCQdoc-YzJZMA" id="(0.5,0.5)"/>
           <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_g0Xba_I0EfCQdoc-YzJZMA" id="(0.5,0.5)"/>
         </edges>
-        <edges xmi:type="notation:Edge" xmi:id="_RYXyAPI1EfCQdoc-YzJZMA" type="4001" element="_RXvgHPI1EfCQdoc-YzJZMA" source="_1niGKPIlEfCn5omJX0ADZw" target="_CIICcPIyEfCQdoc-YzJZMA">
-          <children xmi:type="notation:Node" xmi:id="_RYXyBPI1EfCQdoc-YzJZMA" type="6001">
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_RYXyBfI1EfCQdoc-YzJZMA" y="-10"/>
-          </children>
-          <children xmi:type="notation:Node" xmi:id="_RYXyBvI1EfCQdoc-YzJZMA" type="6002">
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_RYXyB_I1EfCQdoc-YzJZMA" y="10"/>
-          </children>
-          <children xmi:type="notation:Node" xmi:id="_RYXyCPI1EfCQdoc-YzJZMA" type="6003">
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_RYXyCfI1EfCQdoc-YzJZMA" y="10"/>
-          </children>
-          <styles xmi:type="notation:ConnectorStyle" xmi:id="_RYXyAfI1EfCQdoc-YzJZMA"/>
-          <styles xmi:type="notation:FontStyle" xmi:id="_RYXyAvI1EfCQdoc-YzJZMA" fontName="Segoe UI" fontHeight="12"/>
-          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_RYXyA_I1EfCQdoc-YzJZMA" points="[-15, 3, 455, -121]$[-455, 120, 15, -4]"/>
-          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_RYXyCvI1EfCQdoc-YzJZMA" id="(0.5,0.5)"/>
-          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_RYXyC_I1EfCQdoc-YzJZMA" id="(0.5,0.5)"/>
-        </edges>
         <edges xmi:type="notation:Edge" xmi:id="_YmYQ0PI1EfCQdoc-YzJZMA" type="4001" element="_YmXCyPI1EfCQdoc-YzJZMA" source="_1nitMPIlEfCn5omJX0ADZw" target="_w1fEgO-VEfCC96ZUYBD5Tg">
           <children xmi:type="notation:Node" xmi:id="_YmYQ1PI1EfCQdoc-YzJZMA" type="6001">
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_YmYQ1fI1EfCQdoc-YzJZMA" y="-10"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_YmYQ1fI1EfCQdoc-YzJZMA" x="2" y="-8"/>
           </children>
           <children xmi:type="notation:Node" xmi:id="_YmYQ1vI1EfCQdoc-YzJZMA" type="6002">
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_YmYQ1_I1EfCQdoc-YzJZMA" y="10"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_YmYQ1_I1EfCQdoc-YzJZMA" x="1" y="10"/>
           </children>
           <children xmi:type="notation:Node" xmi:id="_YmYQ2PI1EfCQdoc-YzJZMA" type="6003">
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_YmYQ2fI1EfCQdoc-YzJZMA" y="10"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_YmYQ2fI1EfCQdoc-YzJZMA" x="1" y="10"/>
           </children>
           <styles xmi:type="notation:ConnectorStyle" xmi:id="_YmYQ0fI1EfCQdoc-YzJZMA"/>
           <styles xmi:type="notation:FontStyle" xmi:id="_YmYQ0vI1EfCQdoc-YzJZMA" fontName="Segoe UI" fontHeight="12"/>
-          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_YmYQ0_I1EfCQdoc-YzJZMA" points="[-15, -10, 455, 287]$[-455, -288, 15, 9]"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_YmYQ0_I1EfCQdoc-YzJZMA" points="[-15, -11, 460, 317]$[-460, -318, 15, 10]"/>
           <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_YmY34PI1EfCQdoc-YzJZMA" id="(0.5,0.5)"/>
           <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_YmY34fI1EfCQdoc-YzJZMA" id="(0.5,0.5)"/>
         </edges>
         <edges xmi:type="notation:Edge" xmi:id="_H6ZCwPKEEfC8F6cHykUzCg" type="4001" element="_H5ymBvKEEfC8F6cHykUzCg" source="_S3Iz4PImEfCn5omJX0ADZw" target="_Ut86oPIdEfCn5omJX0ADZw">
           <children xmi:type="notation:Node" xmi:id="_H6Zp0PKEEfC8F6cHykUzCg" type="6001">
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_H6Zp0fKEEfC8F6cHykUzCg" y="-10"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_H6Zp0fKEEfC8F6cHykUzCg" x="5" y="-9"/>
           </children>
           <children xmi:type="notation:Node" xmi:id="_H6Zp0vKEEfC8F6cHykUzCg" type="6002">
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_H6Zp0_KEEfC8F6cHykUzCg" y="10"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_H6Zp0_KEEfC8F6cHykUzCg" x="-3" y="11"/>
           </children>
           <children xmi:type="notation:Node" xmi:id="_H6Zp1PKEEfC8F6cHykUzCg" type="6003">
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_H6Zp1fKEEfC8F6cHykUzCg" y="10"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_H6Zp1fKEEfC8F6cHykUzCg" x="-2" y="10"/>
           </children>
           <styles xmi:type="notation:ConnectorStyle" xmi:id="_H6ZCwfKEEfC8F6cHykUzCg"/>
           <styles xmi:type="notation:FontStyle" xmi:id="_H6ZCwvKEEfC8F6cHykUzCg" fontName="Segoe UI" fontHeight="12"/>
-          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_H6ZCw_KEEfC8F6cHykUzCg" points="[-15, 0, 140, -6]$[-140, 5, 15, -1]"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_H6ZCw_KEEfC8F6cHykUzCg" points="[-15, 6, 135, -54]$[-135, 54, 15, -6]"/>
           <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_H6Zp1vKEEfC8F6cHykUzCg" id="(0.5,0.5)"/>
           <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_H6Zp1_KEEfC8F6cHykUzCg" id="(0.5,0.5)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_gBw5kPvTEfCwQdL7HLclmA" type="4001" element="_gBPVmPvTEfCwQdL7HLclmA" source="_S3Iz5fImEfCn5omJX0ADZw" target="_6JFwIPvFEfCwQdL7HLclmA">
+          <children xmi:type="notation:Node" xmi:id="_gByHsPvTEfCwQdL7HLclmA" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_gByHsfvTEfCwQdL7HLclmA" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_gByuwPvTEfCwQdL7HLclmA" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_gByuwfvTEfCwQdL7HLclmA" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_gByuwvvTEfCwQdL7HLclmA" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_gByuw_vTEfCwQdL7HLclmA" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_gBw5kfvTEfCwQdL7HLclmA"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_gBw5kvvTEfCwQdL7HLclmA" fontName="Segoe UI" fontHeight="12"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_gBw5k_vTEfCwQdL7HLclmA" points="[-15, 11, 138, -107]$[-138, 106, 15, -12]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_gB3AMPvTEfCwQdL7HLclmA" id="(0.5,0.5)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_gB3nQPvTEfCwQdL7HLclmA" id="(0.5,0.5)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_k6lCoPvTEfCwQdL7HLclmA" type="4001" element="_k6F6iPvTEfCwQdL7HLclmA" source="_O9kZwPvIEfCwQdL7HLclmA" target="_9eeXmPvFEfCwQdL7HLclmA">
+          <children xmi:type="notation:Node" xmi:id="_k6lCpPvTEfCwQdL7HLclmA" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_k6lCpfvTEfCwQdL7HLclmA" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_k6lCpvvTEfCwQdL7HLclmA" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_k6lCp_vTEfCwQdL7HLclmA" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_k6lCqPvTEfCwQdL7HLclmA" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_k6lCqfvTEfCwQdL7HLclmA" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_k6lCofvTEfCwQdL7HLclmA"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_k6lCovvTEfCwQdL7HLclmA" fontName="Segoe UI" fontHeight="12"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_k6lCo_vTEfCwQdL7HLclmA" points="[-15, 6, 138, -62]$[-138, 61, 15, -7]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_k6lpsPvTEfCwQdL7HLclmA" id="(0.5,0.5)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_k6lpsfvTEfCwQdL7HLclmA" id="(0.5,0.5)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_kP4_gPvWEfCwQdL7HLclmA" type="4001" element="_kPc7D_vWEfCwQdL7HLclmA" source="_CIICcPIyEfCQdoc-YzJZMA" target="_KxzlI_IeEfCn5omJX0ADZw">
+          <children xmi:type="notation:Node" xmi:id="_kP4_hPvWEfCwQdL7HLclmA" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_kP4_hfvWEfCwQdL7HLclmA" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_kP4_hvvWEfCwQdL7HLclmA" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_kP4_h_vWEfCwQdL7HLclmA" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_kP4_iPvWEfCwQdL7HLclmA" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_kP4_ifvWEfCwQdL7HLclmA" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_kP4_gfvWEfCwQdL7HLclmA"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_kP4_gvvWEfCwQdL7HLclmA" fontName="Segoe UI" fontHeight="12"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_kP4_g_vWEfCwQdL7HLclmA" points="[0, 0, 144, -9]$[-144, 9, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_kP4_ivvWEfCwQdL7HLclmA" id="(0.5,0.5)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_kP4_i_vWEfCwQdL7HLclmA" id="(0.5,0.5)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_uSj-UPvWEfCwQdL7HLclmA" type="4001" element="_uPpNcPvWEfCwQdL7HLclmA" source="_VTkSpPvIEfCwQdL7HLclmA" target="_1niGKPIlEfCn5omJX0ADZw">
+          <children xmi:type="notation:Node" xmi:id="_uSj-VPvWEfCwQdL7HLclmA" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_uSj-VfvWEfCwQdL7HLclmA" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_uSj-VvvWEfCwQdL7HLclmA" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_uSj-V_vWEfCwQdL7HLclmA" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_uSj-WPvWEfCwQdL7HLclmA" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_uSj-WfvWEfCwQdL7HLclmA" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_uSj-UfvWEfCwQdL7HLclmA"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_uSj-UvvWEfCwQdL7HLclmA" fontName="Segoe UI" fontHeight="12"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_uSj-U_vWEfCwQdL7HLclmA" points="[0, 0, -486, 84]$[486, -84, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_uSj-WvvWEfCwQdL7HLclmA" id="(0.5,0.5)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_uSj-W_vWEfCwQdL7HLclmA" id="(0.5,0.5)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_1zI-YPvXEfCwQdL7HLclmA" type="4001" element="_1wi9yvvXEfCwQdL7HLclmA" source="_mKd_tfC7EfCX4avrAfuifQ" target="_w1fEhe-VEfCC96ZUYBD5Tg">
+          <children xmi:type="notation:Node" xmi:id="_1zJlcPvXEfCwQdL7HLclmA" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_1zJlcfvXEfCwQdL7HLclmA" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_1zJlcvvXEfCwQdL7HLclmA" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_1zJlc_vXEfCwQdL7HLclmA" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_1zJldPvXEfCwQdL7HLclmA" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_1zJldfvXEfCwQdL7HLclmA" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_1zI-YfvXEfCwQdL7HLclmA"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_1zI-YvvXEfCwQdL7HLclmA" fontName="Segoe UI" fontHeight="12"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_1zI-Y_vXEfCwQdL7HLclmA" points="[0, 0, -181, -149]$[168, 139, -13, -10]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_1zJldvvXEfCwQdL7HLclmA" id="(0.5,0.5)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_1zJld_vXEfCwQdL7HLclmA" id="(0.5,0.5)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_71dGIPvXEfCwQdL7HLclmA" type="4001" element="_71cfMPvXEfCwQdL7HLclmA" source="_Ut-IwPIdEfCn5omJX0ADZw" target="_S3HlwPImEfCn5omJX0ADZw">
+          <children xmi:type="notation:Node" xmi:id="_71dGJPvXEfCwQdL7HLclmA" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_71dGJfvXEfCwQdL7HLclmA" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_71dGJvvXEfCwQdL7HLclmA" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_71dGJ_vXEfCwQdL7HLclmA" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_71dGKPvXEfCwQdL7HLclmA" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_71dGKfvXEfCwQdL7HLclmA" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_71dGIfvXEfCwQdL7HLclmA"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_71dGIvvXEfCwQdL7HLclmA" fontName="Segoe UI" fontHeight="12"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_71dGI_vXEfCwQdL7HLclmA" points="[15, -7, -140, 57]$[140, -58, -15, 6]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_71dtMPvXEfCwQdL7HLclmA" id="(0.5,0.5)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_71dtMfvXEfCwQdL7HLclmA" id="(0.5,0.5)"/>
         </edges>
       </data>
     </ownedAnnotationEntries>
@@ -779,7 +855,7 @@
               </ownedStyle>
               <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/myVcsArdVP.project.design/description/VcsProject.odesign#//@ownedViewpoints[name='VehicleControlSystemViewpoint']/@ownedRepresentations[name='VcsStructure']/@defaultLayer/@containerMappings[name='vehicleControlSystem']/@subContainerMappings[name='ParkingAssist']/@subNodeMappings[name='PushBtn']/@borderedNodeMappings[name='PinGroupPa']/@borderedNodeMappings[name='PinNodePa']"/>
             </ownedBorderedNodes>
-            <ownedBorderedNodes xmi:type="diagram:DNode" uid="_mJ3ixPC7EfCX4avrAfuifQ" name="signalPushButton" incomingEdges="_yAY_jvIwEfCQdoc-YzJZMA" width="3" height="3" resizeKind="NSEW">
+            <ownedBorderedNodes xmi:type="diagram:DNode" uid="_mJ3ixPC7EfCX4avrAfuifQ" name="signalPushButton" outgoingEdges="_1wi9yvvXEfCwQdL7HLclmA" width="3" height="3" resizeKind="NSEW">
               <target xmi:type="VcuSystem:Pin" href="MyVcsArdDesign.vcusystem#//@parkingassist/@component.0/@pingroups.0/@pin.1"/>
               <semanticElements xmi:type="VcuSystem:Pin" href="MyVcsArdDesign.vcusystem#//@parkingassist/@component.0/@pingroups.0/@pin.1"/>
               <ownedStyle xmi:type="diagram:Dot" uid="_mJ4J0PC7EfCX4avrAfuifQ" labelSize="12" labelPosition="node" backgroundColor="138,226,52">
@@ -824,7 +900,7 @@
               </ownedStyle>
               <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/myVcsArdVP.project.design/description/VcsProject.odesign#//@ownedViewpoints[name='VehicleControlSystemViewpoint']/@ownedRepresentations[name='VcsStructure']/@defaultLayer/@containerMappings[name='vehicleControlSystem']/@subContainerMappings[name='ParkingAssist']/@subNodeMappings[name='UltrasonicSensor']/@borderedNodeMappings[name='pinGrpUS']/@borderedNodeMappings[name='pinsUS']"/>
             </ownedBorderedNodes>
-            <ownedBorderedNodes xmi:type="diagram:DNode" uid="_UtiD4_IdEfCn5omJX0ADZw" name="echoDS" incomingEdges="_WNzCKPIwEfCQdoc-YzJZMA" width="3" height="3" resizeKind="NSEW">
+            <ownedBorderedNodes xmi:type="diagram:DNode" uid="_UtiD4_IdEfCn5omJX0ADZw" name="echoDS" outgoingEdges="_71cfMPvXEfCwQdL7HLclmA" width="3" height="3" resizeKind="NSEW">
               <target xmi:type="VcuSystem:Pin" href="MyVcsArdDesign.vcusystem#//@parkingassist/@component.1/@pingroups.0/@pin.2"/>
               <semanticElements xmi:type="VcuSystem:Pin" href="MyVcsArdDesign.vcusystem#//@parkingassist/@component.1/@pingroups.0/@pin.2"/>
               <ownedStyle xmi:type="diagram:Dot" uid="_UtiD5PIdEfCn5omJX0ADZw" labelSize="12" labelPosition="node" backgroundColor="138,226,52">
@@ -869,10 +945,28 @@
               </ownedStyle>
               <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/myVcsArdVP.project.design/description/VcsProject.odesign#//@ownedViewpoints[name='VehicleControlSystemViewpoint']/@ownedRepresentations[name='VcsStructure']/@defaultLayer/@containerMappings[name='vehicleControlSystem']/@subContainerMappings[name='ParkingAssist']/@subNodeMappings[name='WarningLED']/@borderedNodeMappings[name='PinGrpLED']/@borderedNodeMappings[name='pinsLED']"/>
             </ownedBorderedNodes>
-            <ownedBorderedNodes xmi:type="diagram:DNode" uid="_26YHtfIdEfCn5omJX0ADZw" name="anodeLED" incomingEdges="_sPNjuPIzEfCQdoc-YzJZMA" width="3" height="3" resizeKind="NSEW">
+            <ownedBorderedNodes xmi:type="diagram:DNode" uid="_26YHtfIdEfCn5omJX0ADZw" name="REDLED" incomingEdges="_sPNjuPIzEfCQdoc-YzJZMA" width="3" height="3" resizeKind="NSEW">
               <target xmi:type="VcuSystem:Pin" href="MyVcsArdDesign.vcusystem#//@parkingassist/@component.2/@pingroups.0/@pin.1"/>
               <semanticElements xmi:type="VcuSystem:Pin" href="MyVcsArdDesign.vcusystem#//@parkingassist/@component.2/@pingroups.0/@pin.1"/>
               <ownedStyle xmi:type="diagram:Dot" uid="_26YHtvIdEfCn5omJX0ADZw" labelSize="12" labelPosition="node" backgroundColor="138,226,52">
+                <customFeatures>backgroundColor</customFeatures>
+                <description xmi:type="style:DotDescription" href="platform:/resource/myVcsArdVP.project.design/description/VcsProject.odesign#//@ownedViewpoints[name='VehicleControlSystemViewpoint']/@ownedRepresentations[name='VcsStructure']/@defaultLayer/@containerMappings[name='vehicleControlSystem']/@subContainerMappings[name='ParkingAssist']/@subNodeMappings[name='WarningLED']/@borderedNodeMappings[name='PinGrpLED']/@borderedNodeMappings[name='pinsLED']/@style"/>
+              </ownedStyle>
+              <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/myVcsArdVP.project.design/description/VcsProject.odesign#//@ownedViewpoints[name='VehicleControlSystemViewpoint']/@ownedRepresentations[name='VcsStructure']/@defaultLayer/@containerMappings[name='vehicleControlSystem']/@subContainerMappings[name='ParkingAssist']/@subNodeMappings[name='WarningLED']/@borderedNodeMappings[name='PinGrpLED']/@borderedNodeMappings[name='pinsLED']"/>
+            </ownedBorderedNodes>
+            <ownedBorderedNodes xmi:type="diagram:DNode" uid="_6JCs0PvFEfCwQdL7HLclmA" name="BlueLED" incomingEdges="_gBPVmPvTEfCwQdL7HLclmA" width="3" height="3" resizeKind="NSEW">
+              <target xmi:type="VcuSystem:Pin" href="MyVcsArdDesign.vcusystem#//@parkingassist/@component.2/@pingroups.0/@pin.2"/>
+              <semanticElements xmi:type="VcuSystem:Pin" href="MyVcsArdDesign.vcusystem#//@parkingassist/@component.2/@pingroups.0/@pin.2"/>
+              <ownedStyle xmi:type="diagram:Dot" uid="_6JCs0fvFEfCwQdL7HLclmA" labelSize="12" labelPosition="node" backgroundColor="138,226,52">
+                <customFeatures>backgroundColor</customFeatures>
+                <description xmi:type="style:DotDescription" href="platform:/resource/myVcsArdVP.project.design/description/VcsProject.odesign#//@ownedViewpoints[name='VehicleControlSystemViewpoint']/@ownedRepresentations[name='VcsStructure']/@defaultLayer/@containerMappings[name='vehicleControlSystem']/@subContainerMappings[name='ParkingAssist']/@subNodeMappings[name='WarningLED']/@borderedNodeMappings[name='PinGrpLED']/@borderedNodeMappings[name='pinsLED']/@style"/>
+              </ownedStyle>
+              <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/myVcsArdVP.project.design/description/VcsProject.odesign#//@ownedViewpoints[name='VehicleControlSystemViewpoint']/@ownedRepresentations[name='VcsStructure']/@defaultLayer/@containerMappings[name='vehicleControlSystem']/@subContainerMappings[name='ParkingAssist']/@subNodeMappings[name='WarningLED']/@borderedNodeMappings[name='PinGrpLED']/@borderedNodeMappings[name='pinsLED']"/>
+            </ownedBorderedNodes>
+            <ownedBorderedNodes xmi:type="diagram:DNode" uid="_9eV0sPvFEfCwQdL7HLclmA" name="GreenLED" incomingEdges="_k6F6iPvTEfCwQdL7HLclmA" width="3" height="3" resizeKind="NSEW">
+              <target xmi:type="VcuSystem:Pin" href="MyVcsArdDesign.vcusystem#//@parkingassist/@component.2/@pingroups.0/@pin.3"/>
+              <semanticElements xmi:type="VcuSystem:Pin" href="MyVcsArdDesign.vcusystem#//@parkingassist/@component.2/@pingroups.0/@pin.3"/>
+              <ownedStyle xmi:type="diagram:Dot" uid="_9eV0sfvFEfCwQdL7HLclmA" labelSize="12" labelPosition="node" backgroundColor="138,226,52">
                 <customFeatures>backgroundColor</customFeatures>
                 <description xmi:type="style:DotDescription" href="platform:/resource/myVcsArdVP.project.design/description/VcsProject.odesign#//@ownedViewpoints[name='VehicleControlSystemViewpoint']/@ownedRepresentations[name='VcsStructure']/@defaultLayer/@containerMappings[name='vehicleControlSystem']/@subContainerMappings[name='ParkingAssist']/@subNodeMappings[name='WarningLED']/@borderedNodeMappings[name='PinGrpLED']/@borderedNodeMappings[name='pinsLED']/@style"/>
               </ownedStyle>
@@ -896,7 +990,7 @@
           <ownedBorderedNodes xmi:type="diagram:DNode" uid="_KxWSNPIeEfCn5omJX0ADZw" name="BuzzerPinGrp" width="3" height="3" resizeKind="NSEW">
             <target xmi:type="VcuSystem:PinGroup" href="MyVcsArdDesign.vcusystem#//@parkingassist/@component.3/@pingroups.0"/>
             <semanticElements xmi:type="VcuSystem:PinGroup" href="MyVcsArdDesign.vcusystem#//@parkingassist/@component.3/@pingroups.0"/>
-            <ownedBorderedNodes xmi:type="diagram:DNode" uid="_KxW5MvIeEfCn5omJX0ADZw" name="signalBuzzer" incomingEdges="_6owcJ_IzEfCQdoc-YzJZMA" width="3" height="3" resizeKind="NSEW">
+            <ownedBorderedNodes xmi:type="diagram:DNode" uid="_KxW5MvIeEfCn5omJX0ADZw" name="Buzzerr" incomingEdges="_kPc7D_vWEfCwQdL7HLclmA" width="3" height="3" resizeKind="NSEW">
               <target xmi:type="VcuSystem:Pin" href="MyVcsArdDesign.vcusystem#//@parkingassist/@component.3/@pingroups.0/@pin.0"/>
               <semanticElements xmi:type="VcuSystem:Pin" href="MyVcsArdDesign.vcusystem#//@parkingassist/@component.3/@pingroups.0/@pin.0"/>
               <ownedStyle xmi:type="diagram:Dot" uid="_KxW5M_IeEfCn5omJX0ADZw" labelSize="12" labelPosition="node" backgroundColor="138,226,52">
@@ -983,7 +1077,7 @@
           <ownedBorderedNodes xmi:type="diagram:DNode" uid="_1nEMOvIlEfCn5omJX0ADZw" name="AHpinGroup" width="3" height="3" resizeKind="NSEW">
             <target xmi:type="VcuSystem:PinGroup" href="MyVcsArdDesign.vcusystem#//@adaptiveheadlight/@component.0/@pingroups.0"/>
             <semanticElements xmi:type="VcuSystem:PinGroup" href="MyVcsArdDesign.vcusystem#//@adaptiveheadlight/@component.0/@pingroups.0"/>
-            <ownedBorderedNodes xmi:type="diagram:DNode" uid="_1nEzIvIlEfCn5omJX0ADZw" name="AnodeHeadlight" outgoingEdges="_RXvgHPI1EfCQdoc-YzJZMA" width="3" height="3" resizeKind="NSEW">
+            <ownedBorderedNodes xmi:type="diagram:DNode" uid="_1nEzIvIlEfCn5omJX0ADZw" name="AnodeHeadlight" incomingEdges="_uPpNcPvWEfCwQdL7HLclmA" width="3" height="3" resizeKind="NSEW">
               <target xmi:type="VcuSystem:Pin" href="MyVcsArdDesign.vcusystem#//@adaptiveheadlight/@component.0/@pingroups.0/@pin.0"/>
               <semanticElements xmi:type="VcuSystem:Pin" href="MyVcsArdDesign.vcusystem#//@adaptiveheadlight/@component.0/@pingroups.0/@pin.0"/>
               <ownedStyle xmi:type="diagram:Dot" uid="_1nEzI_IlEfCn5omJX0ADZw" labelSize="12" labelPosition="node" backgroundColor="138,226,52">
@@ -1035,7 +1129,7 @@
             </ownedStyle>
             <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/myVcsArdVP.project.design/description/VcsProject.odesign#//@ownedViewpoints[name='VehicleControlSystemViewpoint']/@ownedRepresentations[name='VcsStructure']/@defaultLayer/@containerMappings[name='vehicleControlSystem']/@subContainerMappings[name='Board']/@borderedNodeMappings[name='PinGroup']/@borderedNodeMappings[name='Pin']"/>
           </ownedBorderedNodes>
-          <ownedBorderedNodes xmi:type="diagram:DNode" uid="_w1baKO-VEfCC96ZUYBD5Tg" name="pin2" outgoingEdges="_yAY_jvIwEfCQdoc-YzJZMA" width="3" height="3" resizeKind="NSEW">
+          <ownedBorderedNodes xmi:type="diagram:DNode" uid="_w1baKO-VEfCC96ZUYBD5Tg" name="pin2" incomingEdges="_1wi9yvvXEfCwQdL7HLclmA" width="3" height="3" resizeKind="NSEW">
             <target xmi:type="VcuSystem:Pin" href="MyVcsArdDesign.vcusystem#//@board/@pingroups.0/@pin.2"/>
             <semanticElements xmi:type="VcuSystem:Pin" href="MyVcsArdDesign.vcusystem#//@board/@pingroups.0/@pin.2"/>
             <ownedStyle xmi:type="diagram:Dot" uid="_w1baKe-VEfCC96ZUYBD5Tg" labelSize="12" labelPosition="node" backgroundColor="138,226,52">
@@ -1044,7 +1138,7 @@
             </ownedStyle>
             <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/myVcsArdVP.project.design/description/VcsProject.odesign#//@ownedViewpoints[name='VehicleControlSystemViewpoint']/@ownedRepresentations[name='VcsStructure']/@defaultLayer/@containerMappings[name='vehicleControlSystem']/@subContainerMappings[name='Board']/@borderedNodeMappings[name='PinGroup']/@borderedNodeMappings[name='Pin']"/>
           </ownedBorderedNodes>
-          <ownedBorderedNodes xmi:type="diagram:DNode" uid="_S3EiffImEfCn5omJX0ADZw" name="pin8" outgoingEdges="_WNzCKPIwEfCQdoc-YzJZMA" width="3" height="3" resizeKind="NSEW">
+          <ownedBorderedNodes xmi:type="diagram:DNode" uid="_S3EiffImEfCn5omJX0ADZw" name="pin8" incomingEdges="_71cfMPvXEfCwQdL7HLclmA" width="3" height="3" resizeKind="NSEW">
             <target xmi:type="VcuSystem:Pin" href="MyVcsArdDesign.vcusystem#//@board/@pingroups.0/@pin.3"/>
             <semanticElements xmi:type="VcuSystem:Pin" href="MyVcsArdDesign.vcusystem#//@board/@pingroups.0/@pin.3"/>
             <ownedStyle xmi:type="diagram:Dot" uid="_S3EifvImEfCn5omJX0ADZw" labelSize="12" labelPosition="node" backgroundColor="138,226,52">
@@ -1071,7 +1165,7 @@
             </ownedStyle>
             <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/myVcsArdVP.project.design/description/VcsProject.odesign#//@ownedViewpoints[name='VehicleControlSystemViewpoint']/@ownedRepresentations[name='VcsStructure']/@defaultLayer/@containerMappings[name='vehicleControlSystem']/@subContainerMappings[name='Board']/@borderedNodeMappings[name='PinGroup']/@borderedNodeMappings[name='Pin']"/>
           </ownedBorderedNodes>
-          <ownedBorderedNodes xmi:type="diagram:DNode" uid="_S3EihvImEfCn5omJX0ADZw" name="pin4" width="3" height="3" resizeKind="NSEW">
+          <ownedBorderedNodes xmi:type="diagram:DNode" uid="_S3EihvImEfCn5omJX0ADZw" name="pin4" outgoingEdges="_gBPVmPvTEfCwQdL7HLclmA" width="3" height="3" resizeKind="NSEW">
             <target xmi:type="VcuSystem:Pin" href="MyVcsArdDesign.vcusystem#//@board/@pingroups.0/@pin.6"/>
             <semanticElements xmi:type="VcuSystem:Pin" href="MyVcsArdDesign.vcusystem#//@board/@pingroups.0/@pin.6"/>
             <ownedStyle xmi:type="diagram:Dot" uid="_S3Eih_ImEfCn5omJX0ADZw" labelSize="12" labelPosition="node" backgroundColor="138,226,52">
@@ -1089,7 +1183,7 @@
             </ownedStyle>
             <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/myVcsArdVP.project.design/description/VcsProject.odesign#//@ownedViewpoints[name='VehicleControlSystemViewpoint']/@ownedRepresentations[name='VcsStructure']/@defaultLayer/@containerMappings[name='vehicleControlSystem']/@subContainerMappings[name='Board']/@borderedNodeMappings[name='PinGroup']/@borderedNodeMappings[name='Pin']"/>
           </ownedBorderedNodes>
-          <ownedBorderedNodes xmi:type="diagram:DNode" uid="_S3EijPImEfCn5omJX0ADZw" name="pin6" outgoingEdges="_6owcJ_IzEfCQdoc-YzJZMA" width="3" height="3" resizeKind="NSEW">
+          <ownedBorderedNodes xmi:type="diagram:DNode" uid="_S3EijPImEfCn5omJX0ADZw" name="pin6" width="3" height="3" resizeKind="NSEW">
             <target xmi:type="VcuSystem:Pin" href="MyVcsArdDesign.vcusystem#//@board/@pingroups.0/@pin.8"/>
             <semanticElements xmi:type="VcuSystem:Pin" href="MyVcsArdDesign.vcusystem#//@board/@pingroups.0/@pin.8"/>
             <ownedStyle xmi:type="diagram:Dot" uid="_S3EijfImEfCn5omJX0ADZw" labelSize="12" labelPosition="node" backgroundColor="0,64,0">
@@ -1098,7 +1192,7 @@
             </ownedStyle>
             <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/myVcsArdVP.project.design/description/VcsProject.odesign#//@ownedViewpoints[name='VehicleControlSystemViewpoint']/@ownedRepresentations[name='VcsStructure']/@defaultLayer/@containerMappings[name='vehicleControlSystem']/@subContainerMappings[name='Board']/@borderedNodeMappings[name='PinGroup']/@borderedNodeMappings[name='Pin']"/>
           </ownedBorderedNodes>
-          <ownedBorderedNodes xmi:type="diagram:DNode" uid="_CHkBwPIyEfCQdoc-YzJZMA" name="pin11" incomingEdges="_RXvgHPI1EfCQdoc-YzJZMA" width="3" height="3" resizeKind="NSEW">
+          <ownedBorderedNodes xmi:type="diagram:DNode" uid="_CHkBwPIyEfCQdoc-YzJZMA" name="pin11" outgoingEdges="_kPc7D_vWEfCwQdL7HLclmA" width="3" height="3" resizeKind="NSEW">
             <target xmi:type="VcuSystem:Pin" href="MyVcsArdDesign.vcusystem#//@board/@pingroups.0/@pin.9"/>
             <semanticElements xmi:type="VcuSystem:Pin" href="MyVcsArdDesign.vcusystem#//@board/@pingroups.0/@pin.9"/>
             <ownedStyle xmi:type="diagram:Dot" uid="_CHqIYPIyEfCQdoc-YzJZMA" labelSize="12" labelPosition="node" backgroundColor="138,226,52">
@@ -1120,6 +1214,24 @@
             <target xmi:type="VcuSystem:Pin" href="MyVcsArdDesign.vcusystem#//@board/@pingroups.0/@pin.11"/>
             <semanticElements xmi:type="VcuSystem:Pin" href="MyVcsArdDesign.vcusystem#//@board/@pingroups.0/@pin.11"/>
             <ownedStyle xmi:type="diagram:Dot" uid="_UHxe4_IyEfCQdoc-YzJZMA" labelSize="12" labelPosition="node" backgroundColor="255,255,255">
+              <customFeatures>backgroundColor</customFeatures>
+              <description xmi:type="style:DotDescription" href="platform:/resource/myVcsArdVP.project.design/description/VcsProject.odesign#//@ownedViewpoints[name='VehicleControlSystemViewpoint']/@ownedRepresentations[name='VcsStructure']/@defaultLayer/@containerMappings[name='vehicleControlSystem']/@subContainerMappings[name='Board']/@borderedNodeMappings[name='PinGroup']/@borderedNodeMappings[name='Pin']/@style"/>
+            </ownedStyle>
+            <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/myVcsArdVP.project.design/description/VcsProject.odesign#//@ownedViewpoints[name='VehicleControlSystemViewpoint']/@ownedRepresentations[name='VcsStructure']/@defaultLayer/@containerMappings[name='vehicleControlSystem']/@subContainerMappings[name='Board']/@borderedNodeMappings[name='PinGroup']/@borderedNodeMappings[name='Pin']"/>
+          </ownedBorderedNodes>
+          <ownedBorderedNodes xmi:type="diagram:DNode" uid="_O9gIUPvIEfCwQdL7HLclmA" name="pin7" outgoingEdges="_k6F6iPvTEfCwQdL7HLclmA" width="3" height="3" resizeKind="NSEW">
+            <target xmi:type="VcuSystem:Pin" href="MyVcsArdDesign.vcusystem#//@board/@pingroups.0/@pin.12"/>
+            <semanticElements xmi:type="VcuSystem:Pin" href="MyVcsArdDesign.vcusystem#//@board/@pingroups.0/@pin.12"/>
+            <ownedStyle xmi:type="diagram:Dot" uid="_O9gvYPvIEfCwQdL7HLclmA" labelSize="12" labelPosition="node" backgroundColor="138,226,52">
+              <customFeatures>backgroundColor</customFeatures>
+              <description xmi:type="style:DotDescription" href="platform:/resource/myVcsArdVP.project.design/description/VcsProject.odesign#//@ownedViewpoints[name='VehicleControlSystemViewpoint']/@ownedRepresentations[name='VcsStructure']/@defaultLayer/@containerMappings[name='vehicleControlSystem']/@subContainerMappings[name='Board']/@borderedNodeMappings[name='PinGroup']/@borderedNodeMappings[name='Pin']/@style"/>
+            </ownedStyle>
+            <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/myVcsArdVP.project.design/description/VcsProject.odesign#//@ownedViewpoints[name='VehicleControlSystemViewpoint']/@ownedRepresentations[name='VcsStructure']/@defaultLayer/@containerMappings[name='vehicleControlSystem']/@subContainerMappings[name='Board']/@borderedNodeMappings[name='PinGroup']/@borderedNodeMappings[name='Pin']"/>
+          </ownedBorderedNodes>
+          <ownedBorderedNodes xmi:type="diagram:DNode" uid="_VThPMPvIEfCwQdL7HLclmA" name="pin3" outgoingEdges="_uPpNcPvWEfCwQdL7HLclmA" width="3" height="3" resizeKind="NSEW">
+            <target xmi:type="VcuSystem:Pin" href="MyVcsArdDesign.vcusystem#//@board/@pingroups.0/@pin.13"/>
+            <semanticElements xmi:type="VcuSystem:Pin" href="MyVcsArdDesign.vcusystem#//@board/@pingroups.0/@pin.13"/>
+            <ownedStyle xmi:type="diagram:Dot" uid="_VThPMfvIEfCwQdL7HLclmA" labelSize="12" labelPosition="node" backgroundColor="0,64,0">
               <customFeatures>backgroundColor</customFeatures>
               <description xmi:type="style:DotDescription" href="platform:/resource/myVcsArdVP.project.design/description/VcsProject.odesign#//@ownedViewpoints[name='VehicleControlSystemViewpoint']/@ownedRepresentations[name='VcsStructure']/@defaultLayer/@containerMappings[name='vehicleControlSystem']/@subContainerMappings[name='Board']/@borderedNodeMappings[name='PinGroup']/@borderedNodeMappings[name='Pin']/@style"/>
             </ownedStyle>
@@ -1154,24 +1266,6 @@
       </ownedStyle>
       <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/myVcsArdVP.project.design/description/VcsProject.odesign#//@ownedViewpoints[name='VehicleControlSystemViewpoint']/@ownedRepresentations[name='VcsStructure']/@defaultLayer/@edgeMappings[name='wireEdge']"/>
     </ownedDiagramElements>
-    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_WNzCKPIwEfCQdoc-YzJZMA" sourceNode="_S3EiffImEfCn5omJX0ADZw" targetNode="_UtiD4_IdEfCn5omJX0ADZw">
-      <target xmi:type="VcuSystem:Connection" href="MyVcsArdDesign.vcusystem#//@connection.2"/>
-      <semanticElements xmi:type="VcuSystem:Connection" href="MyVcsArdDesign.vcusystem#//@connection.2"/>
-      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_WNzCKfIwEfCQdoc-YzJZMA" size="2">
-        <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/myVcsArdVP.project.design/description/VcsProject.odesign#//@ownedViewpoints[name='VehicleControlSystemViewpoint']/@ownedRepresentations[name='VcsStructure']/@defaultLayer/@edgeMappings[name='wireEdge']/@style"/>
-        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_WNzCKvIwEfCQdoc-YzJZMA" labelSize="12"/>
-      </ownedStyle>
-      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/myVcsArdVP.project.design/description/VcsProject.odesign#//@ownedViewpoints[name='VehicleControlSystemViewpoint']/@ownedRepresentations[name='VcsStructure']/@defaultLayer/@edgeMappings[name='wireEdge']"/>
-    </ownedDiagramElements>
-    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_yAY_jvIwEfCQdoc-YzJZMA" sourceNode="_w1baKO-VEfCC96ZUYBD5Tg" targetNode="_mJ3ixPC7EfCX4avrAfuifQ">
-      <target xmi:type="VcuSystem:Connection" href="MyVcsArdDesign.vcusystem#//@connection.4"/>
-      <semanticElements xmi:type="VcuSystem:Connection" href="MyVcsArdDesign.vcusystem#//@connection.4"/>
-      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_yAaNcPIwEfCQdoc-YzJZMA" size="2">
-        <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/myVcsArdVP.project.design/description/VcsProject.odesign#//@ownedViewpoints[name='VehicleControlSystemViewpoint']/@ownedRepresentations[name='VcsStructure']/@defaultLayer/@edgeMappings[name='wireEdge']/@style"/>
-        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_yAaNcfIwEfCQdoc-YzJZMA" labelSize="12"/>
-      </ownedStyle>
-      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/myVcsArdVP.project.design/description/VcsProject.odesign#//@ownedViewpoints[name='VehicleControlSystemViewpoint']/@ownedRepresentations[name='VcsStructure']/@defaultLayer/@edgeMappings[name='wireEdge']"/>
-    </ownedDiagramElements>
     <ownedDiagramElements xmi:type="diagram:DEdge" uid="_8OnG5PIwEfCQdoc-YzJZMA" sourceNode="_w1baJe-VEfCC96ZUYBD5Tg" targetNode="_mJ3iwfC7EfCX4avrAfuifQ">
       <target xmi:type="VcuSystem:Connection" href="MyVcsArdDesign.vcusystem#//@connection.5"/>
       <semanticElements xmi:type="VcuSystem:Connection" href="MyVcsArdDesign.vcusystem#//@connection.5"/>
@@ -1196,15 +1290,6 @@
       <ownedStyle xmi:type="diagram:EdgeStyle" uid="_sPOKkPIzEfCQdoc-YzJZMA" size="2">
         <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/myVcsArdVP.project.design/description/VcsProject.odesign#//@ownedViewpoints[name='VehicleControlSystemViewpoint']/@ownedRepresentations[name='VcsStructure']/@defaultLayer/@edgeMappings[name='wireEdge']/@style"/>
         <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_sPOKkfIzEfCQdoc-YzJZMA" labelSize="12"/>
-      </ownedStyle>
-      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/myVcsArdVP.project.design/description/VcsProject.odesign#//@ownedViewpoints[name='VehicleControlSystemViewpoint']/@ownedRepresentations[name='VcsStructure']/@defaultLayer/@edgeMappings[name='wireEdge']"/>
-    </ownedDiagramElements>
-    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_6owcJ_IzEfCQdoc-YzJZMA" sourceNode="_S3EijPImEfCn5omJX0ADZw" targetNode="_KxW5MvIeEfCn5omJX0ADZw">
-      <target xmi:type="VcuSystem:Connection" href="MyVcsArdDesign.vcusystem#//@connection.8"/>
-      <semanticElements xmi:type="VcuSystem:Connection" href="MyVcsArdDesign.vcusystem#//@connection.8"/>
-      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_6owcKPIzEfCQdoc-YzJZMA" size="2">
-        <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/myVcsArdVP.project.design/description/VcsProject.odesign#//@ownedViewpoints[name='VehicleControlSystemViewpoint']/@ownedRepresentations[name='VcsStructure']/@defaultLayer/@edgeMappings[name='wireEdge']/@style"/>
-        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_6owcKfIzEfCQdoc-YzJZMA" labelSize="12"/>
       </ownedStyle>
       <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/myVcsArdVP.project.design/description/VcsProject.odesign#//@ownedViewpoints[name='VehicleControlSystemViewpoint']/@ownedRepresentations[name='VcsStructure']/@defaultLayer/@edgeMappings[name='wireEdge']"/>
     </ownedDiagramElements>
@@ -1244,15 +1329,6 @@
       </ownedStyle>
       <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/myVcsArdVP.project.design/description/VcsProject.odesign#//@ownedViewpoints[name='VehicleControlSystemViewpoint']/@ownedRepresentations[name='VcsStructure']/@defaultLayer/@edgeMappings[name='wireEdge']"/>
     </ownedDiagramElements>
-    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_RXvgHPI1EfCQdoc-YzJZMA" sourceNode="_1nEzIvIlEfCn5omJX0ADZw" targetNode="_CHkBwPIyEfCQdoc-YzJZMA">
-      <target xmi:type="VcuSystem:Connection" href="MyVcsArdDesign.vcusystem#//@connection.13"/>
-      <semanticElements xmi:type="VcuSystem:Connection" href="MyVcsArdDesign.vcusystem#//@connection.13"/>
-      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_RXvgHfI1EfCQdoc-YzJZMA" size="2">
-        <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/myVcsArdVP.project.design/description/VcsProject.odesign#//@ownedViewpoints[name='VehicleControlSystemViewpoint']/@ownedRepresentations[name='VcsStructure']/@defaultLayer/@edgeMappings[name='wireEdge']/@style"/>
-        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_RXvgHvI1EfCQdoc-YzJZMA" labelSize="12"/>
-      </ownedStyle>
-      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/myVcsArdVP.project.design/description/VcsProject.odesign#//@ownedViewpoints[name='VehicleControlSystemViewpoint']/@ownedRepresentations[name='VcsStructure']/@defaultLayer/@edgeMappings[name='wireEdge']"/>
-    </ownedDiagramElements>
     <ownedDiagramElements xmi:type="diagram:DEdge" uid="_YmXCyPI1EfCQdoc-YzJZMA" sourceNode="_1nEzJfIlEfCn5omJX0ADZw" targetNode="_w1baJe-VEfCC96ZUYBD5Tg">
       <target xmi:type="VcuSystem:Connection" href="MyVcsArdDesign.vcusystem#//@connection.14"/>
       <semanticElements xmi:type="VcuSystem:Connection" href="MyVcsArdDesign.vcusystem#//@connection.14"/>
@@ -1268,6 +1344,60 @@
       <ownedStyle xmi:type="diagram:EdgeStyle" uid="_H5ymB_KEEfC8F6cHykUzCg" size="2">
         <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/myVcsArdVP.project.design/description/VcsProject.odesign#//@ownedViewpoints[name='VehicleControlSystemViewpoint']/@ownedRepresentations[name='VcsStructure']/@defaultLayer/@edgeMappings[name='wireEdge']/@style"/>
         <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_H5ymCPKEEfC8F6cHykUzCg" labelSize="12"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/myVcsArdVP.project.design/description/VcsProject.odesign#//@ownedViewpoints[name='VehicleControlSystemViewpoint']/@ownedRepresentations[name='VcsStructure']/@defaultLayer/@edgeMappings[name='wireEdge']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_gBPVmPvTEfCwQdL7HLclmA" sourceNode="_S3EihvImEfCn5omJX0ADZw" targetNode="_6JCs0PvFEfCwQdL7HLclmA">
+      <target xmi:type="VcuSystem:Connection" href="MyVcsArdDesign.vcusystem#//@connection.15"/>
+      <semanticElements xmi:type="VcuSystem:Connection" href="MyVcsArdDesign.vcusystem#//@connection.15"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_gBP8MPvTEfCwQdL7HLclmA" size="2">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/myVcsArdVP.project.design/description/VcsProject.odesign#//@ownedViewpoints[name='VehicleControlSystemViewpoint']/@ownedRepresentations[name='VcsStructure']/@defaultLayer/@edgeMappings[name='wireEdge']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_gBP8MfvTEfCwQdL7HLclmA" labelSize="12"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/myVcsArdVP.project.design/description/VcsProject.odesign#//@ownedViewpoints[name='VehicleControlSystemViewpoint']/@ownedRepresentations[name='VcsStructure']/@defaultLayer/@edgeMappings[name='wireEdge']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_k6F6iPvTEfCwQdL7HLclmA" sourceNode="_O9gIUPvIEfCwQdL7HLclmA" targetNode="_9eV0sPvFEfCwQdL7HLclmA">
+      <target xmi:type="VcuSystem:Connection" href="MyVcsArdDesign.vcusystem#//@connection.16"/>
+      <semanticElements xmi:type="VcuSystem:Connection" href="MyVcsArdDesign.vcusystem#//@connection.16"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_k6F6ifvTEfCwQdL7HLclmA" size="2">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/myVcsArdVP.project.design/description/VcsProject.odesign#//@ownedViewpoints[name='VehicleControlSystemViewpoint']/@ownedRepresentations[name='VcsStructure']/@defaultLayer/@edgeMappings[name='wireEdge']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_k6F6ivvTEfCwQdL7HLclmA" labelSize="12"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/myVcsArdVP.project.design/description/VcsProject.odesign#//@ownedViewpoints[name='VehicleControlSystemViewpoint']/@ownedRepresentations[name='VcsStructure']/@defaultLayer/@edgeMappings[name='wireEdge']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_kPc7D_vWEfCwQdL7HLclmA" sourceNode="_CHkBwPIyEfCQdoc-YzJZMA" targetNode="_KxW5MvIeEfCn5omJX0ADZw">
+      <target xmi:type="VcuSystem:Connection" href="MyVcsArdDesign.vcusystem#//@connection.8"/>
+      <semanticElements xmi:type="VcuSystem:Connection" href="MyVcsArdDesign.vcusystem#//@connection.8"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_kPdhsPvWEfCwQdL7HLclmA" size="2">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/myVcsArdVP.project.design/description/VcsProject.odesign#//@ownedViewpoints[name='VehicleControlSystemViewpoint']/@ownedRepresentations[name='VcsStructure']/@defaultLayer/@edgeMappings[name='wireEdge']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_kPdhsfvWEfCwQdL7HLclmA" labelSize="12"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/myVcsArdVP.project.design/description/VcsProject.odesign#//@ownedViewpoints[name='VehicleControlSystemViewpoint']/@ownedRepresentations[name='VcsStructure']/@defaultLayer/@edgeMappings[name='wireEdge']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_uPpNcPvWEfCwQdL7HLclmA" sourceNode="_VThPMPvIEfCwQdL7HLclmA" targetNode="_1nEzIvIlEfCn5omJX0ADZw">
+      <target xmi:type="VcuSystem:Connection" href="MyVcsArdDesign.vcusystem#//@connection.13"/>
+      <semanticElements xmi:type="VcuSystem:Connection" href="MyVcsArdDesign.vcusystem#//@connection.13"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_uPpNcfvWEfCwQdL7HLclmA" size="2">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/myVcsArdVP.project.design/description/VcsProject.odesign#//@ownedViewpoints[name='VehicleControlSystemViewpoint']/@ownedRepresentations[name='VcsStructure']/@defaultLayer/@edgeMappings[name='wireEdge']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_uPpNcvvWEfCwQdL7HLclmA" labelSize="12"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/myVcsArdVP.project.design/description/VcsProject.odesign#//@ownedViewpoints[name='VehicleControlSystemViewpoint']/@ownedRepresentations[name='VcsStructure']/@defaultLayer/@edgeMappings[name='wireEdge']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_1wi9yvvXEfCwQdL7HLclmA" sourceNode="_mJ3ixPC7EfCX4avrAfuifQ" targetNode="_w1baKO-VEfCC96ZUYBD5Tg">
+      <target xmi:type="VcuSystem:Connection" href="MyVcsArdDesign.vcusystem#//@connection.4"/>
+      <semanticElements xmi:type="VcuSystem:Connection" href="MyVcsArdDesign.vcusystem#//@connection.4"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_1wi9y_vXEfCwQdL7HLclmA" size="2">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/myVcsArdVP.project.design/description/VcsProject.odesign#//@ownedViewpoints[name='VehicleControlSystemViewpoint']/@ownedRepresentations[name='VcsStructure']/@defaultLayer/@edgeMappings[name='wireEdge']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_1wi9zPvXEfCwQdL7HLclmA" labelSize="12"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/myVcsArdVP.project.design/description/VcsProject.odesign#//@ownedViewpoints[name='VehicleControlSystemViewpoint']/@ownedRepresentations[name='VcsStructure']/@defaultLayer/@edgeMappings[name='wireEdge']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_71cfMPvXEfCwQdL7HLclmA" sourceNode="_UtiD4_IdEfCn5omJX0ADZw" targetNode="_S3EiffImEfCn5omJX0ADZw">
+      <target xmi:type="VcuSystem:Connection" href="MyVcsArdDesign.vcusystem#//@connection.2"/>
+      <semanticElements xmi:type="VcuSystem:Connection" href="MyVcsArdDesign.vcusystem#//@connection.2"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_71cfMfvXEfCwQdL7HLclmA" size="2">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/myVcsArdVP.project.design/description/VcsProject.odesign#//@ownedViewpoints[name='VehicleControlSystemViewpoint']/@ownedRepresentations[name='VcsStructure']/@defaultLayer/@edgeMappings[name='wireEdge']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_71cfMvvXEfCwQdL7HLclmA" labelSize="12"/>
       </ownedStyle>
       <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/myVcsArdVP.project.design/description/VcsProject.odesign#//@ownedViewpoints[name='VehicleControlSystemViewpoint']/@ownedRepresentations[name='VcsStructure']/@defaultLayer/@edgeMappings[name='wireEdge']"/>
     </ownedDiagramElements>

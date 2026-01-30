@@ -236,6 +236,24 @@
               </firstModelOperations>
             </initialOperation>
           </ownedTools>
+          <ownedTools xsi:type="tool:NodeCreationDescription" name="PinsForParkingAssist" nodeMappings="//@ownedViewpoints[name='VehicleControlSystemViewpoint']/@ownedRepresentations[name='VcsStructure']/@defaultLayer/@containerMappings[name='vehicleControlSystem']/@subContainerMappings[name='ParkingAssist']/@subNodeMappings[name='WarningLED']/@borderedNodeMappings[name='PinGrpLED']/@borderedNodeMappings[name='pinsLED'] //@ownedViewpoints[name='VehicleControlSystemViewpoint']/@ownedRepresentations[name='VcsStructure']/@defaultLayer/@containerMappings[name='vehicleControlSystem']/@subContainerMappings[name='ParkingAssist']/@subNodeMappings[name='UltrasonicSensor']/@borderedNodeMappings[name='pinGrpUS']/@borderedNodeMappings[name='pinsUS'] //@ownedViewpoints[name='VehicleControlSystemViewpoint']/@ownedRepresentations[name='VcsStructure']/@defaultLayer/@containerMappings[name='vehicleControlSystem']/@subContainerMappings[name='ParkingAssist']/@subNodeMappings[name='PushBtn']/@borderedNodeMappings[name='PinGroupPa']/@borderedNodeMappings[name='PinNodePa'] //@ownedViewpoints[name='VehicleControlSystemViewpoint']/@ownedRepresentations[name='VcsStructure']/@defaultLayer/@containerMappings[name='vehicleControlSystem']/@subContainerMappings[name='ParkingAssist']/@subNodeMappings[name='Buzzer']/@borderedNodeMappings[name='pinGrpBuzzer']/@borderedNodeMappings[name='pinBuzzer']">
+            <variable name="container"/>
+            <viewVariable name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="var:container">
+                <subModelOperations xsi:type="tool_1:CreateInstance" typeName="VcuSystem::Pin" referenceName="pin"/>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:NodeCreationDescription" name="ArduinoBoardPin" nodeMappings="//@ownedViewpoints[name='VehicleControlSystemViewpoint']/@ownedRepresentations[name='VcsStructure']/@defaultLayer/@containerMappings[name='vehicleControlSystem']/@subContainerMappings[name='Board']/@borderedNodeMappings[name='PinGroup']/@borderedNodeMappings[name='Pin']">
+            <variable name="container"/>
+            <viewVariable name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="var:container">
+                <subModelOperations xsi:type="tool_1:CreateInstance" typeName="VcuSystem::Pin" referenceName="pin"/>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
         </toolSections>
       </defaultLayer>
     </ownedRepresentations>
@@ -328,7 +346,7 @@
       <pages name="pushButton" labelExpression="pushBtnPage" domainClass="VcuSystem::PushButton" semanticCandidateExpression="var:self" groups="//@extensions.0/@categories.0/@groups.0"/>
       <pages name="distanceSensor" labelExpression="distanceSensorPage" domainClass="VcuSystem::DistanceSensor" semanticCandidateExpression="var:self" groups="//@extensions.0/@categories.0/@groups.1"/>
       <pages name="parkingAssistPage" labelExpression="parkingAssistPage" domainClass="VcuSystem::ParkingAssist" semanticCandidateExpression="var:self" groups="//@extensions.0/@categories.0/@groups.2"/>
-      <pages name="warningLEDpage" labelExpression="warningLEDpage" domainClass="VcuSystem::WarningLED" semanticCandidateExpression="var:self" groups="//@extensions.0/@categories.0/@groups.3"/>
+      <pages name="warningLEDpage" labelExpression="warningLEDpage" domainClass="VcuSystem::WarningLED" semanticCandidateExpression="var:self" groups="//@extensions.0/@categories.0/@groups.3 //@extensions.0/@categories.0/@groups.11"/>
       <pages name="buzzerPage" labelExpression="buzzerPage" domainClass="VcuSystem::Buzzer" semanticCandidateExpression="var:self" groups="//@extensions.0/@categories.0/@groups.4"/>
       <pages name="adaptiveHeadlightPage" labelExpression="adaptiveHeadlightPage" domainClass="VcuSystem::AdaptiveHeadlight" semanticCandidateExpression="var:self" groups="//@extensions.0/@categories.0/@groups.5"/>
       <pages name="lightSensorPage" labelExpression="lightSensorPage" domainClass="VcuSystem::LightSensor" semanticCandidateExpression="var:self" groups="//@extensions.0/@categories.0/@groups.6"/>
