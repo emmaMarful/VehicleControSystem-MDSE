@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <VcuSystem:VehicleControlSystem xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:VcuSystem="http://www.example.org/VcuSystem" name="VcsArduino">
-  <parkingassist safeThreshold="50" warningThreshold="30" dangerThreshold="15" name="vcsParkingAssist">
+  <parkingassist safeThreshold="50" warningThreshold="25" dangerThreshold="15" name="vcsParkingAssist">
     <parkingassistbehavior name="ParkingAssistSM">
       <states name="Inactive" isInitial="true"/>
       <states name="Safe"/>
