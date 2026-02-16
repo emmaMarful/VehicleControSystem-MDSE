@@ -185,7 +185,7 @@
           </style>
         </containerMappings>
         <toolSections name="ToolsSection">
-          <ownedTools xsi:type="tool:NodeCreationDescription" name="componentToolPA" nodeMappings="//@ownedViewpoints[name='VehicleControlSystemViewpoint']/@ownedRepresentations[name='VcsStructure']/@defaultLayer/@containerMappings[name='vehicleControlSystem']/@subContainerMappings[name='ParkingAssist']/@subNodeMappings[name='PushBtn']">
+          <ownedTools xsi:type="tool:NodeCreationDescription" name="pushButtonComponent" nodeMappings="//@ownedViewpoints[name='VehicleControlSystemViewpoint']/@ownedRepresentations[name='VcsStructure']/@defaultLayer/@containerMappings[name='vehicleControlSystem']/@subContainerMappings[name='ParkingAssist']/@subNodeMappings[name='PushBtn']" iconPath="/myVcsArdVP.project.design/images/toolsec/button.png">
             <variable name="container"/>
             <viewVariable name="containerView"/>
             <initialOperation>
@@ -196,14 +196,14 @@
               </firstModelOperations>
             </initialOperation>
           </ownedTools>
-          <ownedTools xsi:type="tool_1:ToolDescription" name="testMe">
+          <ownedTools xsi:type="tool_1:ToolDescription" name="testMe" iconPath="/myVcsArdVP.project.design/images/toolsec/test.png">
             <element name="element"/>
             <elementView name="elementView"/>
             <initialOperation>
               <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="aql:self.testClass()"/>
             </initialOperation>
           </ownedTools>
-          <ownedTools xsi:type="tool:NodeCreationDescription" name="warningLED" nodeMappings="//@ownedViewpoints[name='VehicleControlSystemViewpoint']/@ownedRepresentations[name='VcsStructure']/@defaultLayer/@containerMappings[name='vehicleControlSystem']/@subContainerMappings[name='ParkingAssist']/@subNodeMappings[name='WarningLED']">
+          <ownedTools xsi:type="tool:NodeCreationDescription" name="warningLED" nodeMappings="//@ownedViewpoints[name='VehicleControlSystemViewpoint']/@ownedRepresentations[name='VcsStructure']/@defaultLayer/@containerMappings[name='vehicleControlSystem']/@subContainerMappings[name='ParkingAssist']/@subNodeMappings[name='WarningLED']" iconPath="/myVcsArdVP.project.design/images/toolsec/led-light.png">
             <variable name="container"/>
             <viewVariable name="containerView"/>
             <initialOperation>
@@ -214,7 +214,7 @@
               </firstModelOperations>
             </initialOperation>
           </ownedTools>
-          <ownedTools xsi:type="tool:NodeCreationDescription" name="distanceSensor" nodeMappings="//@ownedViewpoints[name='VehicleControlSystemViewpoint']/@ownedRepresentations[name='VcsStructure']/@defaultLayer/@containerMappings[name='vehicleControlSystem']/@subContainerMappings[name='ParkingAssist']/@subNodeMappings[name='UltrasonicSensor']">
+          <ownedTools xsi:type="tool:NodeCreationDescription" name="distanceSensor" nodeMappings="//@ownedViewpoints[name='VehicleControlSystemViewpoint']/@ownedRepresentations[name='VcsStructure']/@defaultLayer/@containerMappings[name='vehicleControlSystem']/@subContainerMappings[name='ParkingAssist']/@subNodeMappings[name='UltrasonicSensor']" iconPath="/myVcsArdVP.project.design/images/toolsec/ultrasonic-sensor1.png">
             <variable name="container"/>
             <viewVariable name="containerView"/>
             <initialOperation>
@@ -225,7 +225,7 @@
               </firstModelOperations>
             </initialOperation>
           </ownedTools>
-          <ownedTools xsi:type="tool:NodeCreationDescription" name="buzzerComponent" nodeMappings="//@ownedViewpoints[name='VehicleControlSystemViewpoint']/@ownedRepresentations[name='VcsStructure']/@defaultLayer/@containerMappings[name='vehicleControlSystem']/@subContainerMappings[name='ParkingAssist']/@subNodeMappings[name='Buzzer']">
+          <ownedTools xsi:type="tool:NodeCreationDescription" name="buzzerComponent" nodeMappings="//@ownedViewpoints[name='VehicleControlSystemViewpoint']/@ownedRepresentations[name='VcsStructure']/@defaultLayer/@containerMappings[name='vehicleControlSystem']/@subContainerMappings[name='ParkingAssist']/@subNodeMappings[name='Buzzer']" iconPath="/myVcsArdVP.project.design/images/toolsec/buzzer.png">
             <variable name="container"/>
             <viewVariable name="containerView"/>
             <initialOperation>
@@ -236,7 +236,7 @@
               </firstModelOperations>
             </initialOperation>
           </ownedTools>
-          <ownedTools xsi:type="tool:NodeCreationDescription" name="PinsForParkingAssist" nodeMappings="//@ownedViewpoints[name='VehicleControlSystemViewpoint']/@ownedRepresentations[name='VcsStructure']/@defaultLayer/@containerMappings[name='vehicleControlSystem']/@subContainerMappings[name='ParkingAssist']/@subNodeMappings[name='WarningLED']/@borderedNodeMappings[name='PinGrpLED']/@borderedNodeMappings[name='pinsLED'] //@ownedViewpoints[name='VehicleControlSystemViewpoint']/@ownedRepresentations[name='VcsStructure']/@defaultLayer/@containerMappings[name='vehicleControlSystem']/@subContainerMappings[name='ParkingAssist']/@subNodeMappings[name='UltrasonicSensor']/@borderedNodeMappings[name='pinGrpUS']/@borderedNodeMappings[name='pinsUS'] //@ownedViewpoints[name='VehicleControlSystemViewpoint']/@ownedRepresentations[name='VcsStructure']/@defaultLayer/@containerMappings[name='vehicleControlSystem']/@subContainerMappings[name='ParkingAssist']/@subNodeMappings[name='PushBtn']/@borderedNodeMappings[name='PinGroupPa']/@borderedNodeMappings[name='PinNodePa'] //@ownedViewpoints[name='VehicleControlSystemViewpoint']/@ownedRepresentations[name='VcsStructure']/@defaultLayer/@containerMappings[name='vehicleControlSystem']/@subContainerMappings[name='ParkingAssist']/@subNodeMappings[name='Buzzer']/@borderedNodeMappings[name='pinGrpBuzzer']/@borderedNodeMappings[name='pinBuzzer']">
+          <ownedTools xsi:type="tool:NodeCreationDescription" name="Pins" nodeMappings="//@ownedViewpoints[name='VehicleControlSystemViewpoint']/@ownedRepresentations[name='VcsStructure']/@defaultLayer/@containerMappings[name='vehicleControlSystem']/@subContainerMappings[name='ParkingAssist']/@subNodeMappings[name='WarningLED']/@borderedNodeMappings[name='PinGrpLED']/@borderedNodeMappings[name='pinsLED'] //@ownedViewpoints[name='VehicleControlSystemViewpoint']/@ownedRepresentations[name='VcsStructure']/@defaultLayer/@containerMappings[name='vehicleControlSystem']/@subContainerMappings[name='ParkingAssist']/@subNodeMappings[name='UltrasonicSensor']/@borderedNodeMappings[name='pinGrpUS']/@borderedNodeMappings[name='pinsUS'] //@ownedViewpoints[name='VehicleControlSystemViewpoint']/@ownedRepresentations[name='VcsStructure']/@defaultLayer/@containerMappings[name='vehicleControlSystem']/@subContainerMappings[name='ParkingAssist']/@subNodeMappings[name='PushBtn']/@borderedNodeMappings[name='PinGroupPa']/@borderedNodeMappings[name='PinNodePa'] //@ownedViewpoints[name='VehicleControlSystemViewpoint']/@ownedRepresentations[name='VcsStructure']/@defaultLayer/@containerMappings[name='vehicleControlSystem']/@subContainerMappings[name='ParkingAssist']/@subNodeMappings[name='Buzzer']/@borderedNodeMappings[name='pinGrpBuzzer']/@borderedNodeMappings[name='pinBuzzer'] //@ownedViewpoints[name='VehicleControlSystemViewpoint']/@ownedRepresentations[name='VcsStructure']/@defaultLayer/@containerMappings[name='vehicleControlSystem']/@subContainerMappings[name='AdaptiveHeadlight']/@subNodeMappings[name='LightSensor']/@borderedNodeMappings[name='PinGrpLightSensor']/@borderedNodeMappings[name='PinLightSensor'] //@ownedViewpoints[name='VehicleControlSystemViewpoint']/@ownedRepresentations[name='VcsStructure']/@defaultLayer/@containerMappings[name='vehicleControlSystem']/@subContainerMappings[name='AdaptiveHeadlight']/@subNodeMappings[name='Headlight']/@borderedNodeMappings[name='pinGrpHeadlight']/@borderedNodeMappings[name='pinsHeadlight'] //@ownedViewpoints[name='VehicleControlSystemViewpoint']/@ownedRepresentations[name='VcsStructure']/@defaultLayer/@containerMappings[name='vehicleControlSystem']/@subContainerMappings[name='Board']/@borderedNodeMappings[name='PinGroup']/@borderedNodeMappings[name='Pin']" iconPath="/myVcsArdVP.project.design/images/toolsec/pins.png">
             <variable name="container"/>
             <viewVariable name="containerView"/>
             <initialOperation>
@@ -245,12 +245,46 @@
               </firstModelOperations>
             </initialOperation>
           </ownedTools>
-          <ownedTools xsi:type="tool:NodeCreationDescription" name="ArduinoBoardPin" nodeMappings="//@ownedViewpoints[name='VehicleControlSystemViewpoint']/@ownedRepresentations[name='VcsStructure']/@defaultLayer/@containerMappings[name='vehicleControlSystem']/@subContainerMappings[name='Board']/@borderedNodeMappings[name='PinGroup']/@borderedNodeMappings[name='Pin']">
+          <ownedTools xsi:type="tool:NodeCreationDescription" name="lightSensor" precondition="lightSensor" nodeMappings="//@ownedViewpoints[name='VehicleControlSystemViewpoint']/@ownedRepresentations[name='VcsStructure']/@defaultLayer/@containerMappings[name='vehicleControlSystem']/@subContainerMappings[name='AdaptiveHeadlight']/@subNodeMappings[name='LightSensor']" iconPath="/myVcsArdVP.project.design/images/toolsec/photo-resistor.png">
             <variable name="container"/>
             <viewVariable name="containerView"/>
             <initialOperation>
               <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="var:container">
-                <subModelOperations xsi:type="tool_1:CreateInstance" typeName="VcuSystem::Pin" referenceName="pin"/>
+                <subModelOperations xsi:type="tool_1:CreateInstance" typeName="VcuSystem::LightSensor" referenceName="component"/>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:NodeCreationDescription" name="headlight" nodeMappings="//@ownedViewpoints[name='VehicleControlSystemViewpoint']/@ownedRepresentations[name='VcsStructure']/@defaultLayer/@containerMappings[name='vehicleControlSystem']/@subContainerMappings[name='AdaptiveHeadlight']/@subNodeMappings[name='Headlight']" iconPath="/myVcsArdVP.project.design/images/toolsec/headlight.png">
+            <variable name="container"/>
+            <viewVariable name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="var:container">
+                <subModelOperations xsi:type="tool_1:CreateInstance" typeName="VcuSystem::Headlight" referenceName="component"/>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:EdgeCreationDescription" name="wireEdge" edgeMappings="//@ownedViewpoints[name='VehicleControlSystemViewpoint']/@ownedRepresentations[name='VcsStructure']/@defaultLayer/@edgeMappings[name='wireEdge']" iconPath="/myVcsArdVP.project.design/images/toolsec/cable.png">
+            <sourceVariable name="source"/>
+            <targetVariable name="target"/>
+            <sourceViewVariable name="sourceView"/>
+            <targetViewVariable name="targetView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="aql:self.ancestors()->filter(VcuSystem::VehicleControlSystem)->first()">
+                <subModelOperations xsi:type="tool_1:CreateInstance" typeName="VcuSystem::Connection" referenceName="connection">
+                  <subModelOperations xsi:type="tool_1:ChangeContext" browseExpression="var:instance">
+                    <subModelOperations xsi:type="tool_1:SetValue" featureName="source" valueExpression="var:source"/>
+                    <subModelOperations xsi:type="tool_1:SetValue" featureName="target" valueExpression="var:target"/>
+                  </subModelOperations>
+                </subModelOperations>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:NodeCreationDescription" name="pingroup" nodeMappings="//@ownedViewpoints[name='VehicleControlSystemViewpoint']/@ownedRepresentations[name='VcsStructure']/@defaultLayer/@containerMappings[name='vehicleControlSystem']/@subContainerMappings[name='ParkingAssist']/@subNodeMappings[name='WarningLED']/@borderedNodeMappings[name='PinGrpLED'] //@ownedViewpoints[name='VehicleControlSystemViewpoint']/@ownedRepresentations[name='VcsStructure']/@defaultLayer/@containerMappings[name='vehicleControlSystem']/@subContainerMappings[name='ParkingAssist']/@subNodeMappings[name='UltrasonicSensor']/@borderedNodeMappings[name='pinGrpUS'] //@ownedViewpoints[name='VehicleControlSystemViewpoint']/@ownedRepresentations[name='VcsStructure']/@defaultLayer/@containerMappings[name='vehicleControlSystem']/@subContainerMappings[name='ParkingAssist']/@subNodeMappings[name='PushBtn']/@borderedNodeMappings[name='PinGroupPa'] //@ownedViewpoints[name='VehicleControlSystemViewpoint']/@ownedRepresentations[name='VcsStructure']/@defaultLayer/@containerMappings[name='vehicleControlSystem']/@subContainerMappings[name='ParkingAssist']/@subNodeMappings[name='Buzzer']/@borderedNodeMappings[name='pinGrpBuzzer'] //@ownedViewpoints[name='VehicleControlSystemViewpoint']/@ownedRepresentations[name='VcsStructure']/@defaultLayer/@containerMappings[name='vehicleControlSystem']/@subContainerMappings[name='Board']/@borderedNodeMappings[name='PinGroup'] //@ownedViewpoints[name='VehicleControlSystemViewpoint']/@ownedRepresentations[name='VcsStructure']/@defaultLayer/@containerMappings[name='vehicleControlSystem']/@subContainerMappings[name='AdaptiveHeadlight']/@subNodeMappings[name='LightSensor']/@borderedNodeMappings[name='PinGrpLightSensor'] //@ownedViewpoints[name='VehicleControlSystemViewpoint']/@ownedRepresentations[name='VcsStructure']/@defaultLayer/@containerMappings[name='vehicleControlSystem']/@subContainerMappings[name='AdaptiveHeadlight']/@subNodeMappings[name='Headlight']/@borderedNodeMappings[name='pinGrpHeadlight']" iconPath="/myVcsArdVP.project.design/images/toolsec/pinGroup.png">
+            <variable name="container"/>
+            <viewVariable name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="var:container">
+                <subModelOperations xsi:type="tool_1:CreateInstance" typeName="VcuSystem::PinGroup" referenceName="pingroups"/>
               </firstModelOperations>
             </initialOperation>
           </ownedTools>
@@ -284,13 +318,29 @@
           </style>
         </containerMappings>
         <toolSections name="ParkingAssistTools">
-          <ownedTools xsi:type="tool:NodeCreationDescription" name="StateToolParkingAssist" nodeMappings="//@ownedViewpoints[name='VehicleControlSystemViewpoint']/@ownedRepresentations[name='ParkingAssistStateDiagram']/@defaultLayer/@containerMappings[name='ParkingAssistStateChart']/@subNodeMappings[name='StateParkingAssist']">
+          <ownedTools xsi:type="tool:NodeCreationDescription" name="StateToolParkingAssist" nodeMappings="//@ownedViewpoints[name='VehicleControlSystemViewpoint']/@ownedRepresentations[name='ParkingAssistStateDiagram']/@defaultLayer/@containerMappings[name='ParkingAssistStateChart']/@subNodeMappings[name='StateParkingAssist']" iconPath="/myVcsArdVP.project.design/images/toolsec/pins.png">
             <variable name="container"/>
             <viewVariable name="containerView"/>
             <initialOperation>
               <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="var:container">
                 <subModelOperations xsi:type="tool_1:CreateInstance" typeName="VcuSystem::State" referenceName="states">
                   <subModelOperations xsi:type="tool_1:SetValue" featureName="name" valueExpression="newState"/>
+                </subModelOperations>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:EdgeCreationDescription" name="transition" edgeMappings="//@ownedViewpoints[name='VehicleControlSystemViewpoint']/@ownedRepresentations[name='ParkingAssistStateDiagram']/@defaultLayer/@edgeMappings[name='Transition']" iconPath="/myVcsArdVP.project.design/images/toolsec/cable.png">
+            <sourceVariable name="source"/>
+            <targetVariable name="target"/>
+            <sourceViewVariable name="sourceView"/>
+            <targetViewVariable name="targetView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="aql:self.ancestors()->filter(VcuSystem::ParkingAssistBehavior)->first()">
+                <subModelOperations xsi:type="tool_1:CreateInstance" typeName="VcuSystem::Transition" referenceName="transitions">
+                  <subModelOperations xsi:type="tool_1:ChangeContext" browseExpression="var:instance">
+                    <subModelOperations xsi:type="tool_1:SetValue" featureName="source" valueExpression="var:source"/>
+                    <subModelOperations xsi:type="tool_1:SetValue" featureName="target" valueExpression="var:target"/>
+                  </subModelOperations>
                 </subModelOperations>
               </firstModelOperations>
             </initialOperation>
@@ -325,13 +375,29 @@
           </style>
         </containerMappings>
         <toolSections name="AdaptiveHeadlightTools">
-          <ownedTools xsi:type="tool:NodeCreationDescription" name="StateToolAdaptiveHeeadlight" nodeMappings="//@ownedViewpoints[name='VehicleControlSystemViewpoint']/@ownedRepresentations[name='AdaptiveHeadlightBehStateDiagram']/@defaultLayer/@containerMappings[name='AdaptiveHeadlightSA']/@subNodeMappings[name='StateAH']">
+          <ownedTools xsi:type="tool:NodeCreationDescription" name="StateToolAdaptiveHeeadlight" nodeMappings="//@ownedViewpoints[name='VehicleControlSystemViewpoint']/@ownedRepresentations[name='AdaptiveHeadlightBehStateDiagram']/@defaultLayer/@containerMappings[name='AdaptiveHeadlightSA']/@subNodeMappings[name='StateAH']" iconPath="/myVcsArdVP.project.design/images/toolsec/pins.png">
             <variable name="container"/>
             <viewVariable name="containerView"/>
             <initialOperation>
               <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="var:container">
                 <subModelOperations xsi:type="tool_1:CreateInstance" typeName="VcuSystem::State" referenceName="state">
                   <subModelOperations xsi:type="tool_1:SetValue" featureName="name" valueExpression="newState"/>
+                </subModelOperations>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:EdgeCreationDescription" name="transitionAdaptiveHeadlight" edgeMappings="//@ownedViewpoints[name='VehicleControlSystemViewpoint']/@ownedRepresentations[name='AdaptiveHeadlightBehStateDiagram']/@defaultLayer/@edgeMappings[name='TransitionAdaptiveHeadlight']" iconPath="/myVcsArdVP.project.design/images/toolsec/cable.png">
+            <sourceVariable name="source"/>
+            <targetVariable name="target"/>
+            <sourceViewVariable name="sourceView"/>
+            <targetViewVariable name="targetView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="aql:self.ancestors()->filter(VcuSystem::AdaptiveHeadlightBehavior)->first()">
+                <subModelOperations xsi:type="tool_1:CreateInstance" typeName="VcuSystem::Transition" referenceName="transition">
+                  <subModelOperations xsi:type="tool_1:ChangeContext" browseExpression="var:instance">
+                    <subModelOperations xsi:type="tool_1:SetValue" featureName="source" valueExpression="var:source"/>
+                    <subModelOperations xsi:type="tool_1:SetValue" featureName="target" valueExpression="var:target"/>
+                  </subModelOperations>
                 </subModelOperations>
               </firstModelOperations>
             </initialOperation>

@@ -11,7 +11,7 @@
     </eAnnotations>
     <ownedViews xmi:type="viewpoint:DView" uid="_I9WacO7oEfCKlM0Mqjo7Dw">
       <viewpoint xmi:type="description:Viewpoint" href="platform:/resource/myVcsArdVP.project.design/description/VcsProject.odesign#//@ownedViewpoints[name='VehicleControlSystemViewpoint']"/>
-      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_dTYqAu7pEfC0V90C8EWaJQ" name="newVcsStructureDiagram" repPath="#_dTYqAO7pEfC0V90C8EWaJQ" changeId="1770096542137">
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_dTYqAu7pEfC0V90C8EWaJQ" name="newVcsStructureDiagram" repPath="#_dTYqAO7pEfC0V90C8EWaJQ" changeId="1771224770752">
         <description xmi:type="description_1:DiagramDescription" href="platform:/resource/myVcsArdVP.project.design/description/VcsProject.odesign#//@ownedViewpoints[name='VehicleControlSystemViewpoint']/@ownedRepresentations[name='VcsStructure']"/>
         <target xmi:type="VcuSystem:VehicleControlSystem" href="MyVcsArdDesign.vcusystem#/"/>
       </ownedRepresentationDescriptors>
