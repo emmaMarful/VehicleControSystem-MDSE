@@ -64,7 +64,7 @@
       <pingroups name="LightSensorPinGrp">
         <pin pinNr="94" pinType="VCC_5V" name="powerLightSensor"/>
         <pin pinNr="95" pinType="GND" name="groundLightSensor"/>
-        <pin pinNr="96" pinType="ANALOG_IN" name="analogOutLightSensor"/>
+        <pin pinNr="12" pinType="ANALOG_IN" name="analogOutLightSensor"/>
       </pingroups>
     </component>
   </adaptiveheadlight>

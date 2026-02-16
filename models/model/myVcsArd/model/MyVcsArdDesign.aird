@@ -11,7 +11,7 @@
     </eAnnotations>
     <ownedViews xmi:type="viewpoint:DView" uid="_I9WacO7oEfCKlM0Mqjo7Dw">
       <viewpoint xmi:type="description:Viewpoint" href="platform:/resource/myVcsArdVP.project.design/description/VcsProject.odesign#//@ownedViewpoints[name='VehicleControlSystemViewpoint']"/>
-      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_dTYqAu7pEfC0V90C8EWaJQ" name="newVcsStructureDiagram" repPath="#_dTYqAO7pEfC0V90C8EWaJQ" changeId="1770090764552">
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_dTYqAu7pEfC0V90C8EWaJQ" name="newVcsStructureDiagram" repPath="#_dTYqAO7pEfC0V90C8EWaJQ" changeId="1770096542137">
         <description xmi:type="description_1:DiagramDescription" href="platform:/resource/myVcsArdVP.project.design/description/VcsProject.odesign#//@ownedViewpoints[name='VehicleControlSystemViewpoint']/@ownedRepresentations[name='VcsStructure']"/>
         <target xmi:type="VcuSystem:VehicleControlSystem" href="MyVcsArdDesign.vcusystem#/"/>
       </ownedRepresentationDescriptors>
@@ -361,17 +361,6 @@
                   </children>
                   <styles xmi:type="notation:ShapeStyle" xmi:id="_2RNxwfIkEfCn5omJX0ADZw" fontName="Segoe UI" fontHeight="12"/>
                   <layoutConstraint xmi:type="notation:Bounds" xmi:id="_2RNxwvIkEfCn5omJX0ADZw" x="50" y="341" width="211" height="131"/>
-                </children>
-                <children xmi:type="notation:Node" xmi:id="_y9RMMACzEfGbnvx2O0xfBg" type="3007" element="_y9IpUQCzEfGbnvx2O0xfBg">
-                  <children xmi:type="notation:Node" xmi:id="_y9RzQACzEfGbnvx2O0xfBg" type="5003">
-                    <layoutConstraint xmi:type="notation:Location" xmi:id="_y9RzQQCzEfGbnvx2O0xfBg" y="5"/>
-                  </children>
-                  <children xmi:type="notation:Node" xmi:id="_y9RzQgCzEfGbnvx2O0xfBg" type="3004" element="_y9IpUgCzEfGbnvx2O0xfBg">
-                    <styles xmi:type="notation:ShapeStyle" xmi:id="_y9RzQwCzEfGbnvx2O0xfBg" fontName="Segoe UI"/>
-                    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_y9RzRACzEfGbnvx2O0xfBg"/>
-                  </children>
-                  <styles xmi:type="notation:ShapeStyle" xmi:id="_y9RMMQCzEfGbnvx2O0xfBg" fontName="Segoe UI" fontHeight="12"/>
-                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_y9RMMgCzEfGbnvx2O0xfBg" x="20" y="20" width="30" height="30"/>
                 </children>
                 <styles xmi:type="notation:SortingStyle" xmi:id="_-4CrMu-TEfCC96ZUYBD5Tg"/>
                 <styles xmi:type="notation:FilteringStyle" xmi:id="_-4CrM--TEfCC96ZUYBD5Tg"/>
@@ -1114,14 +1103,6 @@
             <description xmi:type="style:BundledImageDescription" href="platform:/resource/myVcsArdVP.project.design/description/VcsProject.odesign#//@ownedViewpoints[name='VehicleControlSystemViewpoint']/@ownedRepresentations[name='VcsStructure']/@defaultLayer/@containerMappings[name='vehicleControlSystem']/@subContainerMappings[name='AdaptiveHeadlight']/@subNodeMappings[name='Headlight']/@style"/>
           </ownedStyle>
           <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/myVcsArdVP.project.design/description/VcsProject.odesign#//@ownedViewpoints[name='VehicleControlSystemViewpoint']/@ownedRepresentations[name='VcsStructure']/@defaultLayer/@containerMappings[name='vehicleControlSystem']/@subContainerMappings[name='AdaptiveHeadlight']/@subNodeMappings[name='Headlight']"/>
-        </ownedDiagramElements>
-        <ownedDiagramElements xmi:type="diagram:DNode" uid="_y9IpUQCzEfGbnvx2O0xfBg" name="Headlight" width="3" height="3" resizeKind="NSEW">
-          <target xmi:type="VcuSystem:Headlight" href="MyVcsArdDesign.vcusystem#//@adaptiveheadlight/@component.0"/>
-          <semanticElements xmi:type="VcuSystem:Headlight" href="MyVcsArdDesign.vcusystem#//@adaptiveheadlight/@component.0"/>
-          <ownedStyle xmi:type="diagram:BundledImage" uid="_y9IpUgCzEfGbnvx2O0xfBg" labelSize="12" labelPosition="node">
-            <description xmi:type="style:BundledImageDescription" href="platform:/resource/myVcsArdVP.project.design/description/VcsProject.odesign#//@ownedViewpoints[name='VehicleControlSystemViewpoint']/@ownedRepresentations[name='VcsStructure']/@defaultLayer/@containerMappings[name='vehicleControlSystem']/@subContainerMappings[name='AdaptiveHeadlight']/@subNodeMappings[name='sdrsdr']/@style"/>
-          </ownedStyle>
-          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/myVcsArdVP.project.design/description/VcsProject.odesign#//@ownedViewpoints[name='VehicleControlSystemViewpoint']/@ownedRepresentations[name='VcsStructure']/@defaultLayer/@containerMappings[name='vehicleControlSystem']/@subContainerMappings[name='AdaptiveHeadlight']/@subNodeMappings[name='sdrsdr']"/>
         </ownedDiagramElements>
       </ownedDiagramElements>
       <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_Pg6sg--VEfCC96ZUYBD5Tg" name="ArduinoUno">
