@@ -5,8 +5,11 @@
       <metamodel href="http://www.example.org/VcuSystem#/"/>
       <validationSet name="checkModel">
         <ownedRules xsi:type="validation:SemanticValidationRule" name="checkWiring" level="ERROR" message="The pin number is already in use" targetClass="VcuSystem::Pin">
+          <audits auditExpression="aql:self.eContainer().eContents()->filter(VcuSystem::Pin) ->select(p | p.pinNr > 0 and p.pinNr= self.pinNr)->size() &lt;= 1"/>
           <audits auditExpression="aql:self.eContainer().eContents()->filter(VcuSystem::Pin) ->select(p | p.pinNr = self.pinNr)->size() >= 0"/>
-          <audits auditExpression="aql:self.eContainer().eContents()->filter(VcuSystem::Pin)->select(p | p.pinNr = self.pinNr)->size() &lt;= 1"/>
+        </ownedRules>
+        <ownedRules xsi:type="validation:SemanticValidationRule" name="checkNaming" level="ERROR" message="component can not have same name" targetClass="VcuSystem::Component">
+          <audits auditExpression="aql:self.eContainer().eContents(VcuSystem::Component)->select(c | c.componentName = self.componentName)->size() &lt;= 1"/>
         </ownedRules>
       </validationSet>
       <defaultLayer name="Default">
@@ -293,6 +296,11 @@
     </ownedRepresentations>
     <ownedRepresentations xsi:type="description_1:DiagramDescription" name="ParkingAssistStateDiagram" domainClass="VcuSystem::ParkingAssistBehavior" enablePopupBars="true">
       <metamodel href="http://www.example.org/VcuSystem#/"/>
+      <validationSet name="checkParkingAssist">
+        <ownedRules xsi:type="validation:SemanticValidationRule" name="checkStateUniqueness " level="ERROR" message="State name must be unique within the behavior" targetClass="VcuSystem::State">
+          <audits auditExpression="aql:self.eContainer().eContents(VcuSystem::State)->select(s | s.name = self.name)->size() &lt;=1"/>
+        </ownedRules>
+      </validationSet>
       <defaultLayer name="Default">
         <edgeMappings name="Transition" semanticCandidatesExpression="aql:self.transitions" sourceMapping="//@ownedViewpoints[name='VehicleControlSystemViewpoint']/@ownedRepresentations[name='ParkingAssistStateDiagram']/@defaultLayer/@containerMappings[name='ParkingAssistStateChart']/@subNodeMappings[name='StateParkingAssist']" targetMapping="//@ownedViewpoints[name='VehicleControlSystemViewpoint']/@ownedRepresentations[name='ParkingAssistStateDiagram']/@defaultLayer/@containerMappings[name='ParkingAssistStateChart']/@subNodeMappings[name='StateParkingAssist']" targetFinderExpression="aql:self.target" sourceFinderExpression="aql:self.source" domainClass="VcuSystem::Transition" useDomainElement="true">
           <style sizeComputationExpression="2">
@@ -350,6 +358,11 @@
     </ownedRepresentations>
     <ownedRepresentations xsi:type="description_1:DiagramDescription" name="AdaptiveHeadlightBehStateDiagram" domainClass="VcuSystem::AdaptiveHeadlightBehavior" enablePopupBars="true">
       <metamodel href="http://www.example.org/VcuSystem#/"/>
+      <validationSet name="checkAdaptiveHeadlight">
+        <ownedRules xsi:type="validation:SemanticValidationRule" name="checkStateUniquenessAD" level="ERROR" message="State name must be unique within the behavior" targetClass="VcuSystem::State">
+          <audits auditExpression="aql:self.eContainer().eContents(VcuSystem::State)->select(s | s.name = self.name)->size() &lt;=1"/>
+        </ownedRules>
+      </validationSet>
       <defaultLayer name="Default">
         <edgeMappings name="TransitionAdaptiveHeadlight" semanticCandidatesExpression="aql:self.transition" sourceMapping="//@ownedViewpoints[name='VehicleControlSystemViewpoint']/@ownedRepresentations[name='AdaptiveHeadlightBehStateDiagram']/@defaultLayer/@containerMappings[name='AdaptiveHeadlightSA']/@subNodeMappings[name='StateAH']" targetMapping="//@ownedViewpoints[name='VehicleControlSystemViewpoint']/@ownedRepresentations[name='AdaptiveHeadlightBehStateDiagram']/@defaultLayer/@containerMappings[name='AdaptiveHeadlightSA']/@subNodeMappings[name='StateAH']" targetFinderExpression="aql:self.target" sourceFinderExpression="aql:self.source" domainClass="VcuSystem::Transition" useDomainElement="true">
           <style sizeComputationExpression="2">

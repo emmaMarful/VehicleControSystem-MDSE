@@ -11,15 +11,15 @@
     </eAnnotations>
     <ownedViews xmi:type="viewpoint:DView" uid="_I9WacO7oEfCKlM0Mqjo7Dw">
       <viewpoint xmi:type="description:Viewpoint" href="platform:/resource/myVcsArdVP.project.design/description/VcsProject.odesign#//@ownedViewpoints[name='VehicleControlSystemViewpoint']"/>
-      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_dTYqAu7pEfC0V90C8EWaJQ" name="newVcsStructureDiagram" repPath="#_dTYqAO7pEfC0V90C8EWaJQ" changeId="1771224770752">
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_dTYqAu7pEfC0V90C8EWaJQ" name="newVcsStructureDiagram" repPath="#_dTYqAO7pEfC0V90C8EWaJQ" changeId="1772581681582">
         <description xmi:type="description_1:DiagramDescription" href="platform:/resource/myVcsArdVP.project.design/description/VcsProject.odesign#//@ownedViewpoints[name='VehicleControlSystemViewpoint']/@ownedRepresentations[name='VcsStructure']"/>
         <target xmi:type="VcuSystem:VehicleControlSystem" href="MyVcsArdDesign.vcusystem#/"/>
       </ownedRepresentationDescriptors>
-      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_r7fGsPdLEfCAJrQeG_LV3g" name="new ParkingAssistStateDiagram" repPath="#_r7efoPdLEfCAJrQeG_LV3g" changeId="1769385778765">
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_r7fGsPdLEfCAJrQeG_LV3g" name="new ParkingAssistStateDiagram" repPath="#_r7efoPdLEfCAJrQeG_LV3g" changeId="1772580137390">
         <description xmi:type="description_1:DiagramDescription" href="platform:/resource/myVcsArdVP.project.design/description/VcsProject.odesign#//@ownedViewpoints[name='VehicleControlSystemViewpoint']/@ownedRepresentations[name='ParkingAssistStateDiagram']"/>
         <target xmi:type="VcuSystem:ParkingAssistBehavior" href="MyVcsArdDesign.vcusystem#//@parkingassist/@parkingassistbehavior.0"/>
       </ownedRepresentationDescriptors>
-      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_rXkVgvf0EfCsqrIkd_y0Sw" name="new AdaptiveHeadlightBehStateDiagram" repPath="#_rXkVgPf0EfCsqrIkd_y0Sw" changeId="1769385819387">
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_rXkVgvf0EfCsqrIkd_y0Sw" name="new AdaptiveHeadlightBehStateDiagram" repPath="#_rXkVgPf0EfCsqrIkd_y0Sw" changeId="1772580134144">
         <description xmi:type="description_1:DiagramDescription" href="platform:/resource/myVcsArdVP.project.design/description/VcsProject.odesign#//@ownedViewpoints[name='VehicleControlSystemViewpoint']/@ownedRepresentations[name='AdaptiveHeadlightBehStateDiagram']"/>
         <target xmi:type="VcuSystem:AdaptiveHeadlightBehavior" href="MyVcsArdDesign.vcusystem#//@adaptiveheadlight/@adaptiveheadlightbehavior.0"/>
       </ownedRepresentationDescriptors>
@@ -1592,6 +1592,8 @@
         <semanticElements xmi:type="VcuSystem:State" href="MyVcsArdDesign.vcusystem#//@parkingassist/@parkingassistbehavior.0/@states.0"/>
         <ownedStyle xmi:type="diagram:BundledImage" uid="_SomvI_f5EfCsqrIkd_y0Sw" labelSize="12" labelPosition="node" shape="dot" color="209,209,209">
           <customFeatures>color</customFeatures>
+          <customFeatures>borderSize</customFeatures>
+          <customFeatures>shape</customFeatures>
           <description xmi:type="style:BundledImageDescription" href="platform:/resource/myVcsArdVP.project.design/description/VcsProject.odesign#//@ownedViewpoints[name='VehicleControlSystemViewpoint']/@ownedRepresentations[name='ParkingAssistStateDiagram']/@defaultLayer/@containerMappings[name='ParkingAssistStateChart']/@subNodeMappings[name='StateParkingAssist']/@style"/>
         </ownedStyle>
         <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/myVcsArdVP.project.design/description/VcsProject.odesign#//@ownedViewpoints[name='VehicleControlSystemViewpoint']/@ownedRepresentations[name='ParkingAssistStateDiagram']/@defaultLayer/@containerMappings[name='ParkingAssistStateChart']/@subNodeMappings[name='StateParkingAssist']"/>
